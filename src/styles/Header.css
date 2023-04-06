@@ -1,0 +1,24 @@
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+}
+
+.header__menu-button {
+  width: 91px;
+  height: 21px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: inherit;
+  background-image: url('../images/menu.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}

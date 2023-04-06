@@ -1,0 +1,33 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title-container {
+  margin-left: 5%;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 100%;
+  font-family: var(--font-family);
+}
+
+.section-title {
+  margin: 0;
+  color: var(--main-color);
+  font-weight : 800;
+  font-size: var(--font-size-large);
+  line-height: 1.21;
+}
+
+.section-subtitle {
+  margin: 0;
+  text-align: right;
+  color: var(--main-color);
+  font-weight: 200;
+  font-size: var(--font-size-medium);
+  line-height: 1.21;
+}

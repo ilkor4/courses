@@ -1,0 +1,31 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-140%);
+  }
+
+}
+
+.marquee__container {
+  margin-top: 30px;
+  text-align: center;
+  padding: 5px 0;
+  font-family: var(--font-family);
+  background-color: #DAC9B9;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee__text {
+  margin: 0;
+  color: var(--text-color);
+  white-space: nowrap;
+  font-size: var(--font-size-medium);
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.21;
+  animation: marquee 10s infinite linear;
+}
