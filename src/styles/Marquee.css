@@ -9,7 +9,6 @@
 }
 
 .marquee__container {
-  margin-top: 30px;
   text-align: center;
   padding: 5px 0;
   font-family: var(--font-family);

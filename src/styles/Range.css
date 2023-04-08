@@ -1,0 +1,29 @@
+.range {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+.range__image {
+  width: 60%;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 110px;
+  border-top: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
+}

@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 50px;
 }
 
 .section-title-container {
@@ -12,12 +13,12 @@
   flex-direction: column;
   overflow: hidden;
   max-width: 100%;
-  font-family: var(--font-family);
 }
 
 .section-title {
-  margin: 0;
+  margin: 0 0 0 5%;
   color: var(--main-color);
+  font-family: var(--font-family);
   font-weight : 800;
   font-size: var(--font-size-large);
   line-height: 1.21;
@@ -27,7 +28,16 @@
   margin: 0;
   text-align: right;
   color: var(--main-color);
+  font-family: var(--font-family);
   font-weight: 200;
   font-size: var(--font-size-medium);
   line-height: 1.21;
+}
+
+.section-title:first-child {
+  margin: 0;
+}
+
+.content:first {
+  gap: 0;
 }
