@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.8a9d753a.css",
-    "main.js": "/courses/static/js/main.0b674f5e.js",
+    "main.css": "/courses/static/css/main.89f93632.css",
+    "main.js": "/courses/static/js/main.018d2475.js",
+    "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
+    "static/media/snickers.jpg": "/courses/static/media/snickers.3dbf9d5558cca988522a.jpg",
+    "static/media/mango.jpg": "/courses/static/media/mango.d3bda1da2c02585942ca.jpg",
     "static/media/lead.png": "/courses/static/media/lead.26f92f630f1e451634a2.png",
+    "static/media/hand.png": "/courses/static/media/hand.9e83bcbe35dc40b5dc13.png",
     "static/media/SFProDisplay-Light.woff": "/courses/static/media/SFProDisplay-Light.9166ce32434fe7e05354.woff",
     "static/media/SFProDisplay-Bold.woff": "/courses/static/media/SFProDisplay-Bold.5b08afd6b167d7ec48ce.woff",
     "static/media/SFProDisplay-Regular.woff": "/courses/static/media/SFProDisplay-Regular.7ee14c637e39445d7093.woff",
@@ -12,11 +16,11 @@
     "static/media/logo.png": "/courses/static/media/logo.f6e37d7d058ad18365a7.png",
     "index.html": "/courses/index.html",
     "static/media/menu.svg": "/courses/static/media/menu.a14059baccb8733bbccf.svg",
-    "main.8a9d753a.css.map": "/courses/static/css/main.8a9d753a.css.map",
-    "main.0b674f5e.js.map": "/courses/static/js/main.0b674f5e.js.map"
+    "main.89f93632.css.map": "/courses/static/css/main.89f93632.css.map",
+    "main.018d2475.js.map": "/courses/static/js/main.018d2475.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a9d753a.css",
-    "static/js/main.0b674f5e.js"
+    "static/css/main.89f93632.css",
+    "static/js/main.018d2475.js"
   ]
 }
