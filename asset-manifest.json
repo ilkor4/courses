@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.3d0b297a.css",
-    "main.js": "/courses/static/js/main.0ea87e26.js",
+    "main.css": "/courses/static/css/main.7532a8c8.css",
+    "main.js": "/courses/static/js/main.fe9ff7fb.js",
     "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/cheeze.jpg": "/courses/static/media/cheeze.776aadd90189889032dc.jpg",
     "static/media/snickers.jpg": "/courses/static/media/snickers.3dbf9d5558cca988522a.jpg",
@@ -9,6 +9,7 @@
     "static/media/popsicle.jpg": "/courses/static/media/popsicle.1e9ac5017a78073c01dd.jpg",
     "static/media/macarons.jpg": "/courses/static/media/macarons.5e494d82d5203db7cbe0.jpg",
     "static/media/mango.jpg": "/courses/static/media/mango.d3bda1da2c02585942ca.jpg",
+    "static/media/phone.png": "/courses/static/media/phone.ce5fbef00da7e83156f9.png",
     "static/media/lead.png": "/courses/static/media/lead.26f92f630f1e451634a2.png",
     "static/media/passionFruit.jpg": "/courses/static/media/passionFruit.8b20b06307368e030270.jpg",
     "static/media/hand.png": "/courses/static/media/hand.9e83bcbe35dc40b5dc13.png",
@@ -21,11 +22,11 @@
     "static/media/logo.png": "/courses/static/media/logo.f6e37d7d058ad18365a7.png",
     "index.html": "/courses/index.html",
     "static/media/menu.svg": "/courses/static/media/menu.a14059baccb8733bbccf.svg",
-    "main.3d0b297a.css.map": "/courses/static/css/main.3d0b297a.css.map",
-    "main.0ea87e26.js.map": "/courses/static/js/main.0ea87e26.js.map"
+    "main.7532a8c8.css.map": "/courses/static/css/main.7532a8c8.css.map",
+    "main.fe9ff7fb.js.map": "/courses/static/js/main.fe9ff7fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d0b297a.css",
-    "static/js/main.0ea87e26.js"
+    "static/css/main.7532a8c8.css",
+    "static/js/main.fe9ff7fb.js"
   ]
 }
