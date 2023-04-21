@@ -24,6 +24,10 @@
   line-height: 1.21;
 }
 
+.section-title_pos_lead {
+  margin: 0;
+}
+
 .section-subtitle {
   margin: 0;
   text-align: right;
@@ -32,10 +36,6 @@
   font-weight: 200;
   font-size: var(--font-size-medium);
   line-height: 1.21;
-}
-
-.section-title:first-child {
-  margin: 0;
 }
 
 .content:first {

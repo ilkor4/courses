@@ -1,6 +1,8 @@
 import Lead from "./Lead";
 import Marquee from "./Marquee";
 import Range from "./Range";
+import Portfolio from "./Portfolio";
+import Contacts from "./Contacts";
 import "../styles/Main.css"
 
 export default function Main() {
@@ -10,7 +12,8 @@ export default function Main() {
         <Lead />
         <Marquee />
         <Range />
-        <Marquee />
+        <Portfolio />
+        <Contacts />
       </>
     </main>
 
