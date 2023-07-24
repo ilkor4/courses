@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.c912ff8c.css",
-    "main.js": "/courses/static/js/main.f8d07e20.js",
+    "main.css": "/courses/static/css/main.a47dafba.css",
+    "main.js": "/courses/static/js/main.a0a77878.js",
     "static/media/IMG_6474.mp4": "/courses/static/media/IMG_6474.3ca5d06b8597c548b4cb.mp4",
+    "static/media/poster.jpg": "/courses/static/media/poster.5d40c7587004c6a4b9a8.jpg",
     "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/cheeze.jpg": "/courses/static/media/cheeze.776aadd90189889032dc.jpg",
-    "static/media/cake.jpg": "/courses/static/media/cake.1f7de4551a2c362c7789.jpg",
     "static/media/snickers.jpg": "/courses/static/media/snickers.3dbf9d5558cca988522a.jpg",
     "static/media/latte.jpg": "/courses/static/media/latte.f98d9e7c867706f39f24.jpg",
     "static/media/popsicle.jpg": "/courses/static/media/popsicle.1e9ac5017a78073c01dd.jpg",
@@ -27,11 +27,11 @@
     "static/media/whatsappIcon.png": "/courses/static/media/whatsappIcon.c7dd03f58ef5729a5aac.png",
     "index.html": "/courses/index.html",
     "static/media/menu.svg": "/courses/static/media/menu.a14059baccb8733bbccf.svg",
-    "main.c912ff8c.css.map": "/courses/static/css/main.c912ff8c.css.map",
-    "main.f8d07e20.js.map": "/courses/static/js/main.f8d07e20.js.map"
+    "main.a47dafba.css.map": "/courses/static/css/main.a47dafba.css.map",
+    "main.a0a77878.js.map": "/courses/static/js/main.a0a77878.js.map"
   },
   "entrypoints": [
-    "static/css/main.c912ff8c.css",
-    "static/js/main.f8d07e20.js"
+    "static/css/main.a47dafba.css",
+    "static/js/main.a0a77878.js"
   ]
 }
