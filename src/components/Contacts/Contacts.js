@@ -1,5 +1,6 @@
-import '../styles/Contacts.css';
-import iphoneImage from '../images/phone.png';
+import iphoneImage from '../../images/phone.png';
+
+import '../Contacts/Contacts.css';
 
 export default function Contacts() {
   return(

@@ -1,5 +1,6 @@
-import leadImage from '../images/lead.png';
-import '../styles/Lead.css';
+import leadImage from '../../images/lead.png';
+
+import '../Lead/Lead.css';
 
 export default function Lead() {
   return(

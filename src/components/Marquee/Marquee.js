@@ -1,4 +1,4 @@
-import '../styles/Marquee.css';
+import '../Marquee/Marquee.css';
 
 export default function Marquee() {
   return(

@@ -43,15 +43,15 @@
 }
 
 .contacts__social-icon_whatsApp {
-  background-image: url('../images/socialIcons/whatsappIcon.png');
+  background-image: url('../../images/socialIcons/whatsappIcon.png');
 }
 
 .contacts__social-icon_inst {
-  background-image: url('../../src/images/socialIcons/instIcon.png');
+  background-image: url('../../../src/images/socialIcons/instIcon.png');
 }
 
 .contacts__social-icon_telegram {
-  background-image: url('../../src/images/socialIcons/telegramIcon.png');
+  background-image: url('../../../src/images/socialIcons/telegramIcon.png');
 }
 
 .contacts__social-icon:hover {

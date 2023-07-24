@@ -1,5 +1,6 @@
-import '../styles/Portfolio.css';
-import { portfolioArray } from '../utils/constants';
+import { portfolioArray } from '../../utils/constants';
+
+import '../Portfolio/Portfolio.css';
 
 export default function Portfolio() {
   return(

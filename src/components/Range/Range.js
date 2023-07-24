@@ -1,9 +1,10 @@
-import Card from './Card';
-import handImage from '../images/hand.png';
-import chezeecakesImage from '../images/techCards/cheezecakes.jpg';
-import snickersImage from '../images/techCards/snickers.jpg';
-import mangoImage from '../images/techCards/mango.jpg'
-import '../styles/Range.css';
+import Card from '../Card/Card';
+import handImage from '../../images/hand.png';
+import chezeecakesImage from '../../images/techCards/cheezecakes.jpg';
+import snickersImage from '../../images/techCards/snickers.jpg';
+import mangoImage from '../../images/techCards/mango.jpg'
+
+import '../Range/Range.css';
 
 export default function Range(){
   return(
