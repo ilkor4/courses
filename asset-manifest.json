@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.de6530d4.css",
-    "main.js": "/courses/static/js/main.604a3e0f.js",
-    "static/media/IMG_6474.mp4": "/courses/static/media/IMG_6474.3ca5d06b8597c548b4cb.mp4",
-    "static/media/IMG_6474.gif": "/courses/static/media/IMG_6474.93ca2bf9fecdd1bf6bd5.gif",
-    "static/media/poster.jpg": "/courses/static/media/poster.5d40c7587004c6a4b9a8.jpg",
+    "main.css": "/courses/static/css/main.30d3be5f.css",
+    "main.js": "/courses/static/js/main.40e4dec5.js",
+    "static/media/background-video.mp4": "/courses/static/media/background-video.b7b04910b86b8c2397a8.mp4",
+    "static/media/posterImage.jpg": "/courses/static/media/posterImage.fd542a1d7d624b4b0a98.jpg",
     "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/cheeze.jpg": "/courses/static/media/cheeze.776aadd90189889032dc.jpg",
     "static/media/snickers.jpg": "/courses/static/media/snickers.3dbf9d5558cca988522a.jpg",
@@ -27,12 +26,12 @@
     "static/media/telegramIcon.png": "/courses/static/media/telegramIcon.8e1ef7101d8a607e120f.png",
     "static/media/whatsappIcon.png": "/courses/static/media/whatsappIcon.c7dd03f58ef5729a5aac.png",
     "index.html": "/courses/index.html",
-    "static/media/menu.svg": "/courses/static/media/menu.a14059baccb8733bbccf.svg",
-    "main.de6530d4.css.map": "/courses/static/css/main.de6530d4.css.map",
-    "main.604a3e0f.js.map": "/courses/static/js/main.604a3e0f.js.map"
+    "static/media/menu.svg": "/courses/static/media/menu.5b4e4433a70ed49bede7.svg",
+    "main.30d3be5f.css.map": "/courses/static/css/main.30d3be5f.css.map",
+    "main.40e4dec5.js.map": "/courses/static/js/main.40e4dec5.js.map"
   },
   "entrypoints": [
-    "static/css/main.de6530d4.css",
-    "static/js/main.604a3e0f.js"
+    "static/css/main.30d3be5f.css",
+    "static/js/main.40e4dec5.js"
   ]
 }
