@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.98fb6ed5.css",
-    "main.js": "/courses/static/js/main.f8613e55.js",
+    "main.css": "/courses/static/css/main.53aeb985.css",
+    "main.js": "/courses/static/js/main.1409cfbe.js",
     "static/media/background-video.mp4": "/courses/static/media/background-video.b7b04910b86b8c2397a8.mp4",
-    "static/media/posterImage.jpg": "/courses/static/media/posterImage.fd542a1d7d624b4b0a98.jpg",
     "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
+    "static/media/posterImage.jpg": "/courses/static/media/posterImage.bb3a9ac5042594b63a70.jpg",
     "static/media/cheeze.jpg": "/courses/static/media/cheeze.776aadd90189889032dc.jpg",
     "static/media/napoleon.jpg": "/courses/static/media/napoleon.d687cdb9ce002c3cfe7c.jpg",
     "static/media/snickers.jpg": "/courses/static/media/snickers.3dbf9d5558cca988522a.jpg",
@@ -28,11 +28,11 @@
     "static/media/Decor.svg": "/courses/static/media/Decor.f0e7e1161cd4c092a5feed2783a6e5a1.svg",
     "index.html": "/courses/index.html",
     "static/media/menu.svg": "/courses/static/media/menu.5b4e4433a70ed49bede7.svg",
-    "main.98fb6ed5.css.map": "/courses/static/css/main.98fb6ed5.css.map",
-    "main.f8613e55.js.map": "/courses/static/js/main.f8613e55.js.map"
+    "main.53aeb985.css.map": "/courses/static/css/main.53aeb985.css.map",
+    "main.1409cfbe.js.map": "/courses/static/js/main.1409cfbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.98fb6ed5.css",
-    "static/js/main.f8613e55.js"
+    "static/css/main.53aeb985.css",
+    "static/js/main.1409cfbe.js"
   ]
 }
