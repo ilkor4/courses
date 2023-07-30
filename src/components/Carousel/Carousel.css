@@ -1,0 +1,32 @@
+.carousel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-x: scroll;
+  cursor: pointer;
+}
+
+.carousel__cards {
+  margin: 0;
+  list-style: none;
+  padding: 30px;
+  border-top: 1px solid var(--main-color);
+  width: min-content;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.carousel__card {
+  width: 250px ;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, .3);
+  overflow: hidden;
+}
+

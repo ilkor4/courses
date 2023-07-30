@@ -27,8 +27,11 @@
 }
 
 .portfolio__image {
-  width: 170px;
-  height: 250px;
+  width: 250px;
+  height: 350px;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, .3);
   object-fit: cover;
   animation: move 10s linear infinite alternate;
 }

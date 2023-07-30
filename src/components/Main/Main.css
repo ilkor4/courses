@@ -24,6 +24,10 @@
   line-height: 1.21;
 }
 
+.section-title_light {
+  color: var(--bg-color);
+}
+
 .section-title_pos_lead {
   margin: 0;
 }

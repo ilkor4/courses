@@ -1,11 +1,10 @@
 
 .App {
-  padding: 10px 0;
+  padding: 0;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
   background-color: var(--bg-color);
   min-height: 100vh;
   min-width: 320px;

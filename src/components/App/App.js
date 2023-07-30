@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
+import Video from '../Video/Video';
 
 import '../App/App.css';
 
@@ -11,6 +12,7 @@ function App() {
         <Route path='/' element={
           <>
             <Header />
+            <Video />
             <Main />
           </>
         } />
