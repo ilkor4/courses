@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.7007a479.css",
-    "main.js": "/courses/static/js/main.6ac1a6f8.js",
+    "main.css": "/courses/static/css/main.e8efe6fc.css",
+    "main.js": "/courses/static/js/main.e0318548.js",
     "static/media/background-video.mp4": "/courses/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/posterImage.jpg": "/courses/static/media/posterImage.bb3a9ac5042594b63a70.jpg",
@@ -22,6 +22,7 @@
     "static/media/SFProDisplay-Bold.woff2": "/courses/static/media/SFProDisplay-Bold.84c242fe1f30a86d5ab3.woff2",
     "static/media/SFProDisplay-Regular.woff2": "/courses/static/media/SFProDisplay-Regular.d5ff9f6824d2c6607361.woff2",
     "static/media/logo.png": "/courses/static/media/logo.f6e37d7d058ad18365a7.png",
+    "static/media/order.png": "/courses/static/media/order.aebf43bf440d1bc71dc0.png",
     "static/media/instIcon.png": "/courses/static/media/instIcon.3770331ed876a9b8bcf3.png",
     "static/media/telegramIcon.png": "/courses/static/media/telegramIcon.8e1ef7101d8a607e120f.png",
     "static/media/whatsappIcon.png": "/courses/static/media/whatsappIcon.c7dd03f58ef5729a5aac.png",
@@ -30,11 +31,11 @@
     "static/media/closeButton.svg": "/courses/static/media/closeButton.a1157d49bea69945b401.svg",
     "index.html": "/courses/index.html",
     "static/media/menu.svg": "/courses/static/media/menu.5b4e4433a70ed49bede7.svg",
-    "main.7007a479.css.map": "/courses/static/css/main.7007a479.css.map",
-    "main.6ac1a6f8.js.map": "/courses/static/js/main.6ac1a6f8.js.map"
+    "main.e8efe6fc.css.map": "/courses/static/css/main.e8efe6fc.css.map",
+    "main.e0318548.js.map": "/courses/static/js/main.e0318548.js.map"
   },
   "entrypoints": [
-    "static/css/main.7007a479.css",
-    "static/js/main.6ac1a6f8.js"
+    "static/css/main.e8efe6fc.css",
+    "static/js/main.e0318548.js"
   ]
 }
