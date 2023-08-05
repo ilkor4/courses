@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  overflow: hidden;
 }
 
 .section-title-container {
@@ -18,6 +18,7 @@
 .section-title {
   margin: 0 0 0 5%;
   color: var(--main-color);
+  text-transform: uppercase;
   font-family: var(--font-family);
   font-weight : 800;
   font-size: var(--font-size-large);
@@ -42,6 +43,7 @@
   line-height: 1.21;
 }
 
-.content:first {
-  gap: 0;
+.section-decor_light {
+  background-color: var(--bg-color-light);
 }
+

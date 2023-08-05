@@ -4,7 +4,7 @@
   }
 
   100% {
-    transform: translateX(-700px);
+    transform: translateX(-970px);
   }
 }
 
@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  overflow: hidden;
 }
 
 .portfolio__container {
@@ -23,7 +24,7 @@
   width: 100%;
   display: flex;
   overflow: hidden;
-  gap: 50px;
+  gap: 30px;
 }
 
 .portfolio__image {

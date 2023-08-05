@@ -1,4 +1,4 @@
-import decorImage from '../../images/Decor.svg';
+import decorImage from '../../images/buttons/decor.svg';
 import '../Card/Card.css';
 
 export default function Card(props) {

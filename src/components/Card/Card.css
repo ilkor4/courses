@@ -65,7 +65,6 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  gap: 3px;
   font-family: var(--font-family);
   font-weight: 200;
   font-size: var(--font-size-small);
@@ -79,6 +78,11 @@
   transform: scale(1.1);
 }
 
+.card__button-image {
+  padding: 5px;
+  width: 16px;
+}
+
 .rotate {
-  animation: rotation 2s infinite forwards linear;
+  animation: rotation 3s infinite forwards linear;
 }

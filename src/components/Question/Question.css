@@ -1,0 +1,100 @@
+.question {
+  width: 90%;
+  padding: 10px 5%;
+  box-shadow: 2px 2px 2px 1px rgba(114, 97, 79, 0.2);
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid var(--bg-color);
+  display: flex;
+  transition: .6s ease;
+  flex-direction: column;
+  cursor: pointer;
+  transition: .8s ease-in-out;
+}
+
+.question__question {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  font-size: var(--font-size-small);
+  font-weight: 800;
+  line-height: 1.21;
+  color: var(--bg-color);
+  transition: .6s ease;
+}
+
+.question__image {
+  padding-right: 10px;
+  min-width: 24px;
+  max-width: 24px;
+  height: 24px;
+  border-right: 1px solid var(--bg-color);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.question__image_cost {
+  background-image: url(../../images/icons/cost.png);
+}
+
+.question__image_order {
+  background-image: url(../../images/icons/order.png);
+}
+
+.question__image_important {
+  background-image: url(../../images/icons/important.png);
+}
+
+.question__image_techcard {
+  background-image: url(../../images/icons/techcard.png);
+}
+
+.question__icon {
+  margin: 0 0 0 auto;
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-position: center;
+  background-image: url(../../images/buttons/addButton.svg);
+  background-repeat: no-repeat;
+}
+
+.question__icon:hover {
+  opacity: .6;
+}
+
+.question__icon_opened {
+  background-image: url(../../images/buttons/closeButton.svg);
+}
+
+.question__answer {
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  margin: 0 auto;
+  max-height: 0;
+  display: flex;
+  box-sizing: border-box;
+  background-color: var(--bg-color-light);
+  border-top: 1px solid var(--bg-color);
+  font-size: var(--font-size-medium);
+  font-weight: 200;
+  line-height: 1.21;
+  color: var(--bg-color);
+  cursor: pointer;
+}
+
+.question__answer_active {
+  margin: 10px auto 0;
+  padding: 10px 0;
+  opacity: 1;
+  visibility: visible;
+  max-height: min-content;
+  transition: .8s ease-in-out;
+}
+
