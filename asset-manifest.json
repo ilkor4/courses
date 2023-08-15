@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.a3769161.css",
-    "main.js": "/courses/static/js/main.d5c6d8dc.js",
+    "main.css": "/courses/static/css/main.35dfce8b.css",
+    "main.js": "/courses/static/js/main.ce4c2219.js",
     "static/media/background-video.mp4": "/courses/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/posterImage.jpg": "/courses/static/media/posterImage.bb3a9ac5042594b63a70.jpg",
@@ -34,11 +34,11 @@
     "static/media/closeButton.svg": "/courses/static/media/closeButton.a1157d49bea69945b401.svg",
     "index.html": "/courses/index.html",
     "static/media/menu.svg": "/courses/static/media/menu.5b4e4433a70ed49bede7.svg",
-    "main.a3769161.css.map": "/courses/static/css/main.a3769161.css.map",
-    "main.d5c6d8dc.js.map": "/courses/static/js/main.d5c6d8dc.js.map"
+    "main.35dfce8b.css.map": "/courses/static/css/main.35dfce8b.css.map",
+    "main.ce4c2219.js.map": "/courses/static/js/main.ce4c2219.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3769161.css",
-    "static/js/main.d5c6d8dc.js"
+    "static/css/main.35dfce8b.css",
+    "static/js/main.ce4c2219.js"
   ]
 }
