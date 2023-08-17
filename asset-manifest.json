@@ -1,20 +1,30 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.35dfce8b.css",
-    "main.js": "/courses/static/js/main.ce4c2219.js",
+    "main.css": "/courses/static/css/main.23baaec4.css",
+    "main.js": "/courses/static/js/main.3ca24f25.js",
     "static/media/background-video.mp4": "/courses/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/posterImage.jpg": "/courses/static/media/posterImage.bb3a9ac5042594b63a70.jpg",
     "static/media/cheeze.jpg": "/courses/static/media/cheeze.776aadd90189889032dc.jpg",
     "static/media/napoleon.jpg": "/courses/static/media/napoleon.d687cdb9ce002c3cfe7c.jpg",
+    "static/media/review-four.jpg": "/courses/static/media/review-four.dd752363527524b31879.jpg",
     "static/media/snickers.jpg": "/courses/static/media/snickers.3dbf9d5558cca988522a.jpg",
     "static/media/latte.jpg": "/courses/static/media/latte.f98d9e7c867706f39f24.jpg",
     "static/media/popsicle.jpg": "/courses/static/media/popsicle.1e9ac5017a78073c01dd.jpg",
+    "static/media/review-seven.jpg": "/courses/static/media/review-seven.e7b7b6afff6e75828290.jpg",
     "static/media/macarons.jpg": "/courses/static/media/macarons.5e494d82d5203db7cbe0.jpg",
     "static/media/mango.jpg": "/courses/static/media/mango.d3bda1da2c02585942ca.jpg",
+    "static/media/review-eight.jpg": "/courses/static/media/review-eight.98597794bf88c888ab41.jpg",
     "static/media/phone.png": "/courses/static/media/phone.ce5fbef00da7e83156f9.png",
+    "static/media/review-nine.jpg": "/courses/static/media/review-nine.72e34b93fb8f1708649a.jpg",
     "static/media/lead.png": "/courses/static/media/lead.26f92f630f1e451634a2.png",
+    "static/media/review-ten.jpg": "/courses/static/media/review-ten.1b03a8b3bbac5aa657cd.jpg",
+    "static/media/review-two.jpg": "/courses/static/media/review-two.99a36e14819a54d7a1fc.jpg",
+    "static/media/review-five.jpg": "/courses/static/media/review-five.e2a624ecc34c2a1f4a16.jpg",
     "static/media/passionFruit.jpg": "/courses/static/media/passionFruit.8b20b06307368e030270.jpg",
+    "static/media/review-three.jpg": "/courses/static/media/review-three.9bb53fb0052e305ed08d.jpg",
+    "static/media/review-one.jpg": "/courses/static/media/review-one.04cbba332e3aa0875586.jpg",
+    "static/media/review-six.jpg": "/courses/static/media/review-six.6271f7d8d0dfc0e34c57.jpg",
     "static/media/SFProDisplay-Light.woff": "/courses/static/media/SFProDisplay-Light.9166ce32434fe7e05354.woff",
     "static/media/SFProDisplay-Bold.woff": "/courses/static/media/SFProDisplay-Bold.5b08afd6b167d7ec48ce.woff",
     "static/media/SFProDisplay-Regular.woff": "/courses/static/media/SFProDisplay-Regular.7ee14c637e39445d7093.woff",
@@ -34,11 +44,11 @@
     "static/media/closeButton.svg": "/courses/static/media/closeButton.a1157d49bea69945b401.svg",
     "index.html": "/courses/index.html",
     "static/media/menu.svg": "/courses/static/media/menu.5b4e4433a70ed49bede7.svg",
-    "main.35dfce8b.css.map": "/courses/static/css/main.35dfce8b.css.map",
-    "main.ce4c2219.js.map": "/courses/static/js/main.ce4c2219.js.map"
+    "main.23baaec4.css.map": "/courses/static/css/main.23baaec4.css.map",
+    "main.3ca24f25.js.map": "/courses/static/js/main.3ca24f25.js.map"
   },
   "entrypoints": [
-    "static/css/main.35dfce8b.css",
-    "static/js/main.ce4c2219.js"
+    "static/css/main.23baaec4.css",
+    "static/js/main.3ca24f25.js"
   ]
 }
