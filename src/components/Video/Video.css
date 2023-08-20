@@ -62,5 +62,6 @@
   font-weight: 200;
   font-size: var(--font-size-medium);
   line-height: 1.21;
+  cursor: pointer;
 }
 

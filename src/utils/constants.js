@@ -9,66 +9,145 @@ import popsicleImage from '../images/portfolio/popsicle.jpg';
 import cheezeImage from '../images/portfolio/cheeze.jpg';
 import macaronsImage from '../images/portfolio/macarons.jpg';
 
+import reviewOneImage from '../images/reviews/review-one.jpg';
+import reviewTwoImage from '../images/reviews/review-two.jpg';
+import reviewThreeImage from '../images/reviews/review-three.jpg';
+import reviewFourImage from '../images/reviews/review-four.jpg';
+import reviewFiveImage from '../images/reviews/review-five.jpg';
+import reviewSixImage from '../images/reviews/review-six.jpg';
+import reviewSevenImage from '../images/reviews/review-seven.jpg';
+import reviewEightImage from '../images/reviews/review-eight.jpg';
+import reviewNineImage from '../images/reviews/review-nine.jpg';
+import reviewTenImage from '../images/reviews/review-ten.jpg';
+
 
 export const cardsArray = [
   {
     title: 'Чизкейк',
     text: 'Нежный шоколадный бисквит с малиновым кремом, покрытый бархатной глазурью.',
     link: chezeecakesImage,
-    alt: 'Десерт чизкейк'
+    alt: 'Десерт чизкейк',
+    description: [
+      'Шоколадный бисквит',
+      'Шоколадный взбитый ганаш',
+      'Арахисовый взбитый ганаш',
+      'Сливочная карамель',
+      'Сырно-сливочный крем',
+      'Шоколадный сырный крем'
+    ],
   },
   {
     title: 'Карамельно-ореховый латте',
     text: 'Нежный шоколадный бисквит с малиновым кремом, покрытый бархатной глазурью.',
     link: latteImage,
-    alt: 'Торт карамельно-ореховый латте'
+    alt: 'Торт карамельно-ореховый латте',
+    description: [
+      'Шоколадный бисквит',
+      'Шоколадный взбитый ганаш',
+      'Арахисовый взбитый ганаш',
+      'Сливочная карамель',
+      'Сырно-сливочный крем',
+      'Шоколадный сырный крем'
+    ],
   },
   {
     title: 'Манго-черника',
     text: 'Нежный шоколадный бисквит с малиновым кремом, покрытый бархатной глазурью.',
     link: mangoImage,
-    alt: 'Торт манго-черника'
+    alt: 'Торт манго-черника',
+    description: [
+      'Шоколадный бисквит',
+      'Шоколадный взбитый ганаш',
+      'Арахисовый взбитый ганаш',
+      'Сливочная карамель',
+      'Сырно-сливочный крем',
+      'Шоколадный сырный крем'
+    ],
   },
   {
     title: 'Сникерс',
     text: 'Нежный шоколадный бисквит с малиновым кремом, покрытый бархатной глазурью.',
     link: snickersImage,
-    alt: 'Торт сникерс'
+    alt: 'Торт сникерс',
+    description: [
+      'Шоколадный бисквит',
+      'Шоколадный взбитый ганаш',
+      'Арахисовый взбитый ганаш',
+      'Сливочная карамель',
+      'Сырно-сливочный крем',
+      'Шоколадный сырный крем'
+    ],
   },
   {
     title: 'Наполеон',
     text: 'Нежный шоколадный бисквит с малиновым кремом, покрытый бархатной глазурью.',
     link: napoleonImage,
-    alt: 'Торт наполеон'
+    alt: 'Торт наполеон',
+    description: [
+      'Шоколадный бисквит',
+      'Шоколадный взбитый ганаш',
+      'Арахисовый взбитый ганаш',
+      'Сливочная карамель',
+      'Сырно-сливочный крем',
+      'Шоколадный сырный крем'
+    ],
   },
   {
     title: 'Маракуйя-дорблю',
     text: 'Нежный шоколадный бисквит с малиновым кремом, покрытый бархатной глазурью.',
     link: passionFruitImage,
-    alt: 'Торт Маракуйя-дорблю'
+    alt: 'Торт Маракуйя-дорблю',
+    description: [
+      'Шоколадный бисквит',
+      'Шоколадный взбитый ганаш',
+      'Арахисовый взбитый ганаш',
+      'Сливочная карамель',
+      'Сырно-сливочный крем',
+      'Шоколадный сырный крем'
+    ],
   }
 ]
 
 export const portfolioArray = [
   {
-    link: popsicleImage,
-    alt: 'Десерт кейкпопс'
+    link: reviewOneImage,
+    alt: 'Отзыв 1'
   },
   {
-    link: cheezeImage,
-    alt: 'Десерт чизкейк'
+    link: reviewTwoImage,
+    alt: 'Отзыв 2'
   },
   {
-    link: macaronsImage,
-    alt: 'Десерт макаронс'
+    link: reviewThreeImage,
+    alt: 'Отзыв 3'
   },
   {
-    link: passionFruitImage,
-    alt: 'Торт'
+    link: reviewFourImage,
+    alt: 'Отзыв 4'
   },
   {
-    link: latteImage,
-    alt: 'Десерт латте'
+    link: reviewFiveImage,
+    alt: 'Отзыв 5'
+  },
+  {
+    link: reviewSixImage,
+    alt: 'Отзыв 6'
+  },
+  {
+    link: reviewSevenImage,
+    alt: 'Отзыв 7'
+  },
+  {
+    link: reviewEightImage,
+    alt: 'Отзыв 8'
+  },
+  {
+    link: reviewNineImage,
+    alt: 'Отзыв 9'
+  },
+  {
+    link: reviewTenImage,
+    alt: 'Отзыв 10'
   }
 ]
 

@@ -1,4 +1,3 @@
-import Lead from "../Lead/Lead";
 import Carousel from "../Carousel/Carousel";
 import Marquee from "../Marquee/Marquee";
 // import Range from "../Range/Range";
@@ -9,12 +8,12 @@ import Contacts from "../Contacts/Contacts";
 
 import "../Main/Main.css"
 
-export default function Main() {
+export default function Main(props) {
   return(
     <main className="content">
       <>
         <Marquee />
-        <Carousel />
+        <Carousel onOpen={props.onOpen}/>
         <Questions />
         <Portfolio />
         <Contacts />

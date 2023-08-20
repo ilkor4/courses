@@ -87,6 +87,7 @@
   line-height: 1.21;
   color: var(--bg-color);
   cursor: pointer;
+  transition: .8s ease-in-out, opacity 0.15s ease-in-out;
 }
 
 .question__answer_active {
@@ -95,6 +96,5 @@
   opacity: 1;
   visibility: visible;
   max-height: min-content;
-  transition: .8s ease-in-out;
 }
 
