@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.560b7bb1.css",
-    "main.js": "/courses/static/js/main.b0222fef.js",
+    "main.css": "/courses/static/css/main.4175714a.css",
+    "main.js": "/courses/static/js/main.b72c50b1.js",
     "static/media/background-video.mp4": "/courses/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/posterImage.jpg": "/courses/static/media/posterImage.bb3a9ac5042594b63a70.jpg",
@@ -40,14 +40,14 @@
     "static/media/whatsappIcon.png": "/courses/static/media/whatsappIcon.c7dd03f58ef5729a5aac.png",
     "static/media/decor.svg": "/courses/static/media/decor.ac6d13f1edd44bd326a87fb5dbb0132a.svg",
     "static/media/addButton.svg": "/courses/static/media/addButton.3d264b37794309927c34.svg",
+    "static/media/menu.svg": "/courses/static/media/menu.db44d70eb21f35121a02.svg",
     "static/media/closeButton.svg": "/courses/static/media/closeButton.a1157d49bea69945b401.svg",
     "index.html": "/courses/index.html",
-    "static/media/menu.svg": "/courses/static/media/menu.5b4e4433a70ed49bede7.svg",
-    "main.560b7bb1.css.map": "/courses/static/css/main.560b7bb1.css.map",
-    "main.b0222fef.js.map": "/courses/static/js/main.b0222fef.js.map"
+    "main.4175714a.css.map": "/courses/static/css/main.4175714a.css.map",
+    "main.b72c50b1.js.map": "/courses/static/js/main.b72c50b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.560b7bb1.css",
-    "static/js/main.b0222fef.js"
+    "static/css/main.4175714a.css",
+    "static/js/main.b72c50b1.js"
   ]
 }
