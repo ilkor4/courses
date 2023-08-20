@@ -1,9 +1,9 @@
 .header {
   width: 90%;
-  max-width: 440px;
   padding-top: 20px;
-  position: fixed;
+  position: absolute;
   display: flex;
+  left: 5%;
   justify-content: space-between;
   align-items: center;
   z-index: 2;
@@ -16,12 +16,15 @@
 }
 
 .header__menu-button {
-  width: 91px;
-  height: 21px;
-  border: none;
+  position: fixed;
+  right: 5%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--bg-color);
+  border-radius: 100%;
   padding: 0;
   margin: 0;
-  background-color: inherit;
+  background-color: var(--bg-color);
   background-image: url('../../images/buttons/menu.svg');
   background-size: contain;
   background-repeat: no-repeat;
