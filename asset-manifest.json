@@ -1,18 +1,15 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.ef8dd150.css",
-    "main.js": "/courses/static/js/main.469ad0ac.js",
+    "main.css": "/courses/static/css/main.fafc8689.css",
+    "main.js": "/courses/static/js/main.674fd384.js",
     "static/media/background-video.mp4": "/courses/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/posterImage.jpg": "/courses/static/media/posterImage.bb3a9ac5042594b63a70.jpg",
-    "static/media/cheeze.jpg": "/courses/static/media/cheeze.776aadd90189889032dc.jpg",
     "static/media/napoleon.jpg": "/courses/static/media/napoleon.d687cdb9ce002c3cfe7c.jpg",
     "static/media/review-four.jpg": "/courses/static/media/review-four.dd752363527524b31879.jpg",
     "static/media/snickers.jpg": "/courses/static/media/snickers.3dbf9d5558cca988522a.jpg",
     "static/media/latte.jpg": "/courses/static/media/latte.f98d9e7c867706f39f24.jpg",
-    "static/media/popsicle.jpg": "/courses/static/media/popsicle.1e9ac5017a78073c01dd.jpg",
     "static/media/review-seven.jpg": "/courses/static/media/review-seven.e7b7b6afff6e75828290.jpg",
-    "static/media/macarons.jpg": "/courses/static/media/macarons.5e494d82d5203db7cbe0.jpg",
     "static/media/mango.jpg": "/courses/static/media/mango.d3bda1da2c02585942ca.jpg",
     "static/media/review-eight.jpg": "/courses/static/media/review-eight.98597794bf88c888ab41.jpg",
     "static/media/phone.png": "/courses/static/media/phone.ce5fbef00da7e83156f9.png",
@@ -44,11 +41,11 @@
     "static/media/closeButton.svg": "/courses/static/media/closeButton.a1157d49bea69945b401.svg",
     "static/media/closeButton-light.svg": "/courses/static/media/closeButton-light.dd3f6609040711e8be19.svg",
     "index.html": "/courses/index.html",
-    "main.ef8dd150.css.map": "/courses/static/css/main.ef8dd150.css.map",
-    "main.469ad0ac.js.map": "/courses/static/js/main.469ad0ac.js.map"
+    "main.fafc8689.css.map": "/courses/static/css/main.fafc8689.css.map",
+    "main.674fd384.js.map": "/courses/static/js/main.674fd384.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef8dd150.css",
-    "static/js/main.469ad0ac.js"
+    "static/css/main.fafc8689.css",
+    "static/js/main.674fd384.js"
   ]
 }
