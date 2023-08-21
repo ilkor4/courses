@@ -5,7 +5,7 @@ import '../Contacts/Contacts.css';
 
 export default function Contacts() {
   return(
-    <section className='contacts' aria-label='Секция контакты'>
+    <section className='contacts' aria-label='Секция контакты' id='contacts'>
       <div className='contacts__decor'></div>
       <h2 className='section-title section-title_light'>КОНТАКТЫ</h2>
       <div className='contacts__container'>

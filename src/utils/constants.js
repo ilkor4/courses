@@ -5,10 +5,6 @@ import snickersImage from '../images/techCards/snickers.jpg';
 import napoleonImage from '../images/techCards/napoleon.jpg';
 import passionFruitImage from '../images/techCards/passionFruit.jpg';
 
-import popsicleImage from '../images/portfolio/popsicle.jpg';
-import cheezeImage from '../images/portfolio/cheeze.jpg';
-import macaronsImage from '../images/portfolio/macarons.jpg';
-
 import reviewOneImage from '../images/reviews/review-one.jpg';
 import reviewTwoImage from '../images/reviews/review-two.jpg';
 import reviewThreeImage from '../images/reviews/review-three.jpg';

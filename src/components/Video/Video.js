@@ -7,7 +7,7 @@ import  '../Video/Video.css';
 
 export default function Video() {
   return(
-    <div className='video-container'>
+    <div className='video-container' id='main'>
       <video className='video-container__background-video' autoPlay loop muted playsInline webkit-playinginline="true" poster={posterImage}>
         <source src={backgroundVideo} type="video/mp4" />
       </video>

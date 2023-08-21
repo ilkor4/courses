@@ -2,12 +2,18 @@ import decorImage from '../../images/buttons/decor.svg';
 import './Popup.css';
 
 export default function Popup(props) {
+  const handleCloseOnOverlay = (evt) => {
+    if (evt.target === evt.currentTarget) props.onClose();
+    else return;
+  }
+
   return(
     <div className={
       props.isOpen
         ? 'popup popup_opened'
         : 'popup'
-      }>
+      }
+      onClick={handleCloseOnOverlay}>
         <div className='popup__container'>
           <div className='popup__close-button'
             onClick={ () => props.onClose() }>

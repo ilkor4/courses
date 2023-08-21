@@ -28,4 +28,10 @@
   background-image: url('../../images/buttons/menu.svg');
   background-size: contain;
   background-repeat: no-repeat;
+  cursor: pointer;
+  transition: .7s ease;
+}
+
+.header__menu-button:hover {
+  opacity: .6;
 }

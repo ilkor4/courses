@@ -4,7 +4,7 @@ import '../Portfolio/Portfolio.css';
 
 export default function Portfolio() {
   return(
-    <section className='portfolio'>
+    <section className='portfolio' id='reviews'>
       <h2 className='section-title'>Отзывы</h2>
       <svg xmlns="http://www.w3.org/2000/svg" className='gif' viewBox="0 0 320 300">
         <rect className="gif__card" x="480" width="200" height="200" rx="5" fill="rgba(255,255,255,0.3)"></rect>
