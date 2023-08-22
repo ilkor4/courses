@@ -27,6 +27,9 @@ export default function Carousel(props) {
           )}
         </ul>
       </div>
+      <div className='decor'>
+        <div className='decor__item'></div>
+      </div>
     </section>
   )
 }

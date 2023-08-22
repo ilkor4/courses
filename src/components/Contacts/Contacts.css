@@ -9,28 +9,20 @@
 }
 
 .contacts {
+  padding: 10px 0 30px 0;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-color: var(--bg-color-light);
-  overflow: hidden;
-}
-
-.contacts__decor {
-  border-radius: 99%;
-  transform: scale(1.6);
-  rotate: 180deg;
-  width: 100%;
-  height: 30px;
   background-color: var(--bg-color);
+  overflow: hidden;
 }
 
 .contacts__container {
   width: 100%;
   padding: 30px 5% 0;
   box-sizing: border-box;
-  border-top: 1px solid var(--bg-color);
+  border-top: 1px solid var(--bg-color-light);
   display: grid;
   grid-template-columns: 100px 1fr;
   align-items: center;
@@ -54,15 +46,15 @@
 }
 
 .contacts__social-icon_whatsApp {
-  background-image: url('../../images/socialIcons/whatsappIcon.png');
+  background-image: url('../../images/socialIcons/whatsappIcon.svg');
 }
 
 .contacts__social-icon_inst {
-  background-image: url('../../../src/images/socialIcons/instIcon.png');
+  background-image: url('../../../src/images/socialIcons/instIcon.svg');
 }
 
 .contacts__social-icon_telegram {
-  background-image: url('../../../src/images/socialIcons/telegramIcon.png');
+  background-image: url('../../../src/images/socialIcons/telegramIcon.svg');
 }
 
 .contacts__social-icon:hover {

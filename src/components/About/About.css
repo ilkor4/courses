@@ -1,0 +1,17 @@
+.about {
+  width: 100%;
+  padding-top: 10px;
+  background-color: var(--bg-color-light);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__container {
+  width: 100%;
+  min-height: 500px;
+  padding: 0 0 50px 0;
+  box-sizing: border-box;
+  border-top: 1px solid var(--bg-color);
+}
+

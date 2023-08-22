@@ -12,14 +12,14 @@
   text-align: center;
   padding: 5px 0;
   font-family: var(--font-family);
-  background-color: #DAC9B9;
+  background-color: var(--bg-color-light);
   width: 100%;
   overflow: hidden;
 }
 
 .marquee__text {
   margin: 0;
-  color: var(--text-color);
+  color: var(--bg-color);
   white-space: nowrap;
   font-size: var(--font-size-medium);
   font-weight: 200;

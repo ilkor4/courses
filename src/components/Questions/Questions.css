@@ -1,5 +1,5 @@
 .questions-section {
-  padding-bottom: 10px;
+  padding: 10px 0 0;
   width: 100%;
   background-color: var(--bg-color-light);
   display: flex;

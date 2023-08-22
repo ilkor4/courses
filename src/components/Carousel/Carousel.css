@@ -15,7 +15,7 @@
 .carousel__cards {
   margin: 0;
   list-style: none;
-  padding: 30px;
+  padding: 30px 30px 50px 30px;
   border-top: 1px solid var(--main-color);
   width: min-content;
   box-sizing: border-box;

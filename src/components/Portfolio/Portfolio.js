@@ -16,12 +16,15 @@ export default function Portfolio() {
         <ul className='portfolio__cards'>
           {portfolioArray.map((item, index) => {
             return(
-              <li id={index} className='portfolio__image-container'>
+              <li key={index} className='portfolio__image-container'>
                 <img src={item.link} className='portfolio__image' alt={item.alt}/>
               </li>
             );
           })}
         </ul>
+      </div>
+      <div className='decor'>
+        <div className='decor__item'></div>
       </div>
     </section>
   )
