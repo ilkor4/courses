@@ -2,8 +2,9 @@ import { Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 import Header from '../Header/Header';
 import Burger from '../Burger/Burger';
-import Main from '../Main/Main';
 import Video from '../Video/Video';
+import Main from '../Main/Main';
+import Footer from '../Footer/Footer';
 import Popup from '../Popup/Popup';
 
 import '../App/App.css';
@@ -37,6 +38,7 @@ function App() {
             <Main
               onOpen={handleOpenPopup}
             />
+            <Footer />
             <Burger
               onClose={ () => setIsBurgerOpen(false) }
               isOpen={isBurgerOpen}
