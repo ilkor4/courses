@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.3375bb99.css",
-    "main.js": "/courses/static/js/main.7c2c9bde.js",
+    "main.css": "/courses/static/css/main.778f48e9.css",
+    "main.js": "/courses/static/js/main.e0eb5e43.js",
     "static/media/background-video.mp4": "/courses/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/courses/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/posterImage.jpg": "/courses/static/media/posterImage.bb3a9ac5042594b63a70.jpg",
@@ -21,6 +21,7 @@
     "static/media/review-three.jpg": "/courses/static/media/review-three.9bb53fb0052e305ed08d.jpg",
     "static/media/review-one.jpg": "/courses/static/media/review-one.04cbba332e3aa0875586.jpg",
     "static/media/review-six.jpg": "/courses/static/media/review-six.6271f7d8d0dfc0e34c57.jpg",
+    "static/media/techard-preview.jpg": "/courses/static/media/techard-preview.f35711d3510f596270cc.jpg",
     "static/media/SFProDisplay-Light.woff": "/courses/static/media/SFProDisplay-Light.9166ce32434fe7e05354.woff",
     "static/media/SFProDisplay-Bold.woff": "/courses/static/media/SFProDisplay-Bold.5b08afd6b167d7ec48ce.woff",
     "static/media/SFProDisplay-Regular.woff": "/courses/static/media/SFProDisplay-Regular.7ee14c637e39445d7093.woff",
@@ -41,11 +42,11 @@
     "static/media/closeButton-light.svg": "/courses/static/media/closeButton-light.dd3f6609040711e8be19.svg",
     "static/media/telegramIcon.svg": "/courses/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
     "index.html": "/courses/index.html",
-    "main.3375bb99.css.map": "/courses/static/css/main.3375bb99.css.map",
-    "main.7c2c9bde.js.map": "/courses/static/js/main.7c2c9bde.js.map"
+    "main.778f48e9.css.map": "/courses/static/css/main.778f48e9.css.map",
+    "main.e0eb5e43.js.map": "/courses/static/js/main.e0eb5e43.js.map"
   },
   "entrypoints": [
-    "static/css/main.3375bb99.css",
-    "static/js/main.7c2c9bde.js"
+    "static/css/main.778f48e9.css",
+    "static/js/main.e0eb5e43.js"
   ]
 }
