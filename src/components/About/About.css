@@ -1,17 +1,106 @@
 .about {
   width: 100%;
   padding-top: 10px;
+  font-family: var(--font-family);
   background-color: var(--bg-color-light);
   display: flex;
   flex-direction: column;
   gap: 20px;
+  overflow: hidden;
 }
 
 .about__container {
   width: 100%;
-  min-height: 500px;
-  padding: 0 0 50px 0;
+  padding: 30px 5%;
   box-sizing: border-box;
   border-top: 1px solid var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about__container-title {
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+  text-align: center;
+  gap: 10px;
+  border: 1px solid var(--bg-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(114, 97, 79, 0.2);
+  margin: 0;
+  color: var(--bg-color);
+  border-bottom: 1px solid var(--bg-color);
+  text-transform: uppercase;
+  font-size: var(--font-size-small);
+  font-weight: 800;
+  line-height: 1.21;
+}
+
+.about__description {
+  display: grid;
+  grid-template-columns: minmax(130px, 200px) 1fr;
+  grid-template-rows:  1fr;
+  gap: 20px;
+}
+
+.about__image-container {
+  align-self: center;
+  width: 100%;
+  aspect-ratio: 1/1.4;
+  border: 1px solid var(--bg-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(114, 97, 79, 0.2);
+  overflow: hidden;
+}
+
+.about__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about__text-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.about__item {
+  height: min-content;
+  padding: 5%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid var(--bg-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(114, 97, 79, 0.2);
+}
+
+.about__title {
+  margin: 0;
+  padding-bottom: 5%;
+  color: var(--bg-color);
+  border-bottom: 1px solid var(--bg-color);
+  text-transform: uppercase;
+  font-size: var(--font-size-small);
+  font-weight: 800;
+  line-height: 1.21;
+  text-overflow: ellipsis;
+}
+
+.about__text {
+  margin: 0;
+  color: var(--bg-color);
+  font-size: var(--font-size-small);
+  font-weight: 200;
+  line-height: 1.21;
 }
 
