@@ -1,8 +1,9 @@
+// Главный компонент - основной контент
+
 import Marquee from "../Marquee/Marquee";
 import Carousel from "../Carousel/Carousel";
 import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
-// import Range from "../Range/Range";
 import Questions from "../Questions/Questions";
 import Contacts from "../Contacts/Contacts";
 

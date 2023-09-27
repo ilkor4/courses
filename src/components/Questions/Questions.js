@@ -1,3 +1,5 @@
+// Секция частозадаваемые вопросы
+
 import Question from '../Question/Question';
 import { questionsArray } from '../../utils/constants';
 import '../Questions/Questions.css';

@@ -36,8 +36,8 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  left: calc(50% - 70px);
-  top: calc(50% - 70px);
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
   background-size: contain;
   background-image: url(../../images/logo.png);
   animation: preloader-scale 0.9s ease, preloader-rotate 3.1s ease-in-out .9s;

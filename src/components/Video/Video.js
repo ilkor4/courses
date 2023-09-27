@@ -1,3 +1,5 @@
+// Секция бэкграунд-видео - вступительный блок с фоновым видео
+
 import { HashLink as Link } from 'react-router-hash-link';
 
 import posterImage from '../../images/posterImage.jpg'
@@ -12,8 +14,6 @@ export default function Video() {
         <source src={backgroundVideo} type="video/mp4" />
       </video>
       <div className="video-container__text">
-        <h1 className="video-container__title">CAKES-COURSES</h1>
-        <p className="video-container__subtitle">by Julia</p>
         <Link to='#carousel'><button className='video-container__button'>Подобрать техкарту</button></Link>
       </div>
     </div>

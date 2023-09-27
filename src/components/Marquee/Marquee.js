@@ -1,3 +1,5 @@
+// Компонент - бегущая строка
+
 import '../Marquee/Marquee.css';
 
 export default function Marquee() {

@@ -1,9 +1,12 @@
+// Компонент бургер-меню
+
 import { HashLink as Link } from 'react-router-hash-link';
 
 import headerLogo from '../../images/logo.png';
 import '../Burger/Burger.css';
 
 export default function Burger(props) {
+  // Закрытие по оверлэю
   const handleCloseOnOverlay = (evt) => {
     if (evt.target === evt.currentTarget) props.onClose();
     else return;
@@ -71,9 +74,9 @@ export default function Burger(props) {
               <li className='burger__text'>г. Волгоград</li>
             </ul>
             <div className='burger__social-icons'>
-              <Link  to="https://wa.me/" target='_blank' rel='noreferrer'><div className='burger__social-icon burger__social-icon_whatsApp'></div></Link>
-              <Link  to="https://www.instagram.com/" target='_blank' rel='noreferrer'><div className='burger__social-icon burger__social-icon_inst'></div></Link>
-              <Link  to="https://t.me/ " target='_blank' rel='noreferrer'><div className='burger__social-icon burger__social-icon_telegram'></div></Link>
+              <Link  to="https://wa.me/79093872327" target='_blank' rel='noreferrer'><div className='burger__social-icon burger__social-icon_whatsApp'></div></Link>
+              <Link  to="https://www.instagram.com/cakesby.julia" target='_blank' rel='noreferrer'><div className='burger__social-icon burger__social-icon_inst'></div></Link>
+              <Link  to="https://t.me/cakesby_julia" target='_blank' rel='noreferrer'><div className='burger__social-icon burger__social-icon_telegram'></div></Link>
             </div>
           </div>
         </div>

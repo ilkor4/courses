@@ -1,3 +1,5 @@
+// Компонент шапка
+
 import headerLogo from '../../images/logo.png';
 import '../Header/Header.css';
 

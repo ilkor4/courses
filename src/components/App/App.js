@@ -1,3 +1,5 @@
+// Главный компонент приложения
+
 import { Route, Routes } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Header from '../Header/Header';
@@ -11,16 +13,19 @@ import Popup from '../Popup/Popup';
 import '../App/App.css';
 
 function App() {
+  // Стейты
   const [isPreloaderOpen, setIsPreloaderOpen] = useState(true)
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
   const [popupCard, setPopupCard] = useState([]);
 
+  // Открытие попапа
   const handleOpenPopup = (card) => {
     setPopupCard(card);
     setIsPopupOpen(true);
   };
 
+  // Закрытие попапа
   const handleClosePopup = () => {
     setIsPopupOpen(false);
     setTimeout(() => {
@@ -28,12 +33,14 @@ function App() {
     }, 600);
   };
 
+  // Закрытие прелоудера
   const closePreloader = () => {
     setTimeout( () => {
       setIsPreloaderOpen(false)
     }, 4000)
   }
 
+  // Эффект закрытия прелоудера
   useEffect(closePreloader, []);
 
   return (

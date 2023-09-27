@@ -1,3 +1,5 @@
+// Секция портфолио - комонент с слайдером отзывов
+
 import { portfolioArray } from '../../utils/constants';
 
 import '../Portfolio/Portfolio.css';

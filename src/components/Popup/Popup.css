@@ -132,7 +132,3 @@
   padding: 5px;
   width: 16px;
 }
-
-.rotate {
-  animation: rotation 3s infinite forwards linear;
-}

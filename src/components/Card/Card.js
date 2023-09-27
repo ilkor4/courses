@@ -1,3 +1,5 @@
+// Компонент карточки
+
 import decorImage from '../../images/buttons/decor.svg';
 import '../Card/Card.css';
 

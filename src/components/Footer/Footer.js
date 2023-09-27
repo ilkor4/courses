@@ -1,3 +1,5 @@
+// Компонент подвал
+
 import { HashLink as Link } from 'react-router-hash-link';
 import headerLogo from '../../images/logo.png';
 
@@ -23,7 +25,7 @@ export default function Footer() {
             <li className='footer__text'>ОГРН 321774600524921</li>
           </ul>
           <Link to='#' className='footer__link'><p className='footer__text'>Политика конфиденциальности</p></Link>
-          <Link to='https://wa.me/89297860772' target='blank' className='footer__link'>
+          <Link to='https://github.com/ilkor4' target='blank' className='footer__link'>
             <p className='footer__text'>Дизайн и вёрстка сайта -</p>
             <p className='footer__text'>@ilkor</p>
           </Link>

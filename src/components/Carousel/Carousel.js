@@ -1,3 +1,5 @@
+// Компонент карусель - слайдер товаров
+
 import { cardsArray } from '../../utils/constants';
 import Card from '../Card/Card';
 

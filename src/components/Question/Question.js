@@ -1,3 +1,5 @@
+// Компонент вопроса с выдвижным ответом
+
 import { useState } from 'react';
 import '../Question/Question.css';
 

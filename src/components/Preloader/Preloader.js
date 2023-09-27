@@ -1,3 +1,5 @@
+// Компонент прелоудер - крутящийся логотип
+
 import '../Preloader/Preloader.css';
 
 export default function Preloader(props) {

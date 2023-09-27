@@ -1,7 +1,10 @@
+// Компонент попап - модальное окно с информацией о товаре
+
 import decorImage from '../../images/buttons/decor.svg';
 import './Popup.css';
 
 export default function Popup(props) {
+  // Закрытие по оверлэю
   const handleCloseOnOverlay = (evt) => {
     if (evt.target === evt.currentTarget) props.onClose();
     else return;

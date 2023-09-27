@@ -1,3 +1,5 @@
+// Секция описание тех-карты
+
 import techcardImage from '../../images/techard-preview.jpg'
 import '../About/About.css';
 
