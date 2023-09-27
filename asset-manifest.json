@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.3abe5921.css",
-    "main.js": "/static/js/main.7e040075.js",
+    "main.css": "/static/css/main.d125c5c4.css",
+    "main.js": "/static/js/main.b22d23db.js",
     "static/media/background-video.mp4": "/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
-    "static/media/posterImage.jpg": "/static/media/posterImage.bb3a9ac5042594b63a70.jpg",
     "static/media/napoleon.jpg": "/static/media/napoleon.d687cdb9ce002c3cfe7c.jpg",
+    "static/media/posterImage.jpg": "/static/media/posterImage.9fd513b592621e5e9532.jpg",
     "static/media/review-four.jpg": "/static/media/review-four.dd752363527524b31879.jpg",
     "static/media/snickers.jpg": "/static/media/snickers.3dbf9d5558cca988522a.jpg",
     "static/media/latte.jpg": "/static/media/latte.f98d9e7c867706f39f24.jpg",
@@ -42,11 +42,11 @@
     "static/media/closeButton-light.svg": "/static/media/closeButton-light.dd3f6609040711e8be19.svg",
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
     "index.html": "/index.html",
-    "main.3abe5921.css.map": "/static/css/main.3abe5921.css.map",
-    "main.7e040075.js.map": "/static/js/main.7e040075.js.map"
+    "main.d125c5c4.css.map": "/static/css/main.d125c5c4.css.map",
+    "main.b22d23db.js.map": "/static/js/main.b22d23db.js.map"
   },
   "entrypoints": [
-    "static/css/main.3abe5921.css",
-    "static/js/main.7e040075.js"
+    "static/css/main.d125c5c4.css",
+    "static/js/main.b22d23db.js"
   ]
 }
