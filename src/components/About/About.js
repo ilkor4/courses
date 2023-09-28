@@ -18,7 +18,7 @@ export default function About() {
           <ul className='about__text-container'>
             <li className='about__item'>
               <h4 className='about__title'>
-                Инструкция
+                Процесс
               </h4>
               <p className='about__text'>Подробная пошаговая инструкция приготовления каждого элемента десерта</p>
             </li>
@@ -26,20 +26,20 @@ export default function About() {
               <h4 className='about__title'>
                 Рецепт
               </h4>
-              <p className='about__text'>Список ингридиентов в граммах и миллилитрах для каждого слоя</p>
+              <p className='about__text'>Список ингредиентов в&nbsp;граммах и&nbsp;миллилитрах для каждого слоя</p>
             </li>
           </ul>
           <div className='about__item'>
               <h4 className='about__title'>
                 Идеи
               </h4>
-              <p className='about__text'>Идеи для вашего вдохговения и вкусовые сочетания</p>
+              <p className='about__text'>Идеи для вашего вдохновения и&nbsp;вкусовые сочетания</p>
             </div>
           <div className='about__item'>
             <h4 className='about__title'>
               Советы
             </h4>
-            <p className='about__text'>Небольшие, но очень важные советы из моего рабочего опыта</p>
+            <p className='about__text'>Небольшие, но&nbsp;очень важные советы из&nbsp;моего рабочего опыта</p>
           </div>
         </div>
       </div>

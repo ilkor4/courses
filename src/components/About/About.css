@@ -104,3 +104,9 @@
   line-height: 1.21;
 }
 
+@media screen and (max-width: 360px) {
+  .about__text {
+    font-size: 11px;
+  }
+}
+
