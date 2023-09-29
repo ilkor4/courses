@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.462e021c.css",
-    "main.js": "/static/js/main.cad4c57c.js",
+    "main.css": "/static/css/main.0cac848f.css",
+    "main.js": "/static/js/main.260ec06b.js",
     "static/media/background-video.mp4": "/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/napoleon.jpg": "/static/media/napoleon.d687cdb9ce002c3cfe7c.jpg",
@@ -42,11 +42,11 @@
     "static/media/closeButton-light.svg": "/static/media/closeButton-light.dd3f6609040711e8be19.svg",
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
     "index.html": "/index.html",
-    "main.462e021c.css.map": "/static/css/main.462e021c.css.map",
-    "main.cad4c57c.js.map": "/static/js/main.cad4c57c.js.map"
+    "main.0cac848f.css.map": "/static/css/main.0cac848f.css.map",
+    "main.260ec06b.js.map": "/static/js/main.260ec06b.js.map"
   },
   "entrypoints": [
-    "static/css/main.462e021c.css",
-    "static/js/main.cad4c57c.js"
+    "static/css/main.0cac848f.css",
+    "static/js/main.260ec06b.js"
   ]
 }
