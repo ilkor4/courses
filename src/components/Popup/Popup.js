@@ -1,5 +1,7 @@
 // Компонент попап - модальное окно с информацией о товаре
 
+import { Link } from 'react-router-dom';
+
 import decorImage from '../../images/buttons/decor.svg';
 import './Popup.css';
 
@@ -29,9 +31,11 @@ export default function Popup(props) {
               <ul className='popup__description-list'>
                 {props.popupCard.description && props.popupCard.description.map((item) => <li className='popup__description-text'>{item}</li>)}
               </ul>
-              <button className="popup__button">
-                <img src={decorImage} alt='Декоративное изображение' className="popup__button-image rotate" />Купить
-              </button>
+              <Link className='popup__link' to={`https://wa.me/79093872327?text=${props.popupCard.linkText}`} target='_blank'>
+                <button className="popup__button">
+                  <img src={decorImage} alt='Декоративное изображение' className="popup__button-image rotate" />Купить
+                </button>
+              </Link>
             </div>
           </div>
         </div>

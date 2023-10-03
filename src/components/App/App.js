@@ -9,6 +9,7 @@ import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 import Preloader from '../Preloader/Preloader';
 import Popup from '../Popup/Popup';
+import Privacy from '../Privacy/Privacy';
 
 import '../App/App.css';
 
@@ -17,6 +18,7 @@ function App() {
   const [isPreloaderOpen, setIsPreloaderOpen] = useState(true)
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
+  const [isPrivacyOpen, setIsPrivacyOpen] = useState(false);
   const [popupCard, setPopupCard] = useState([]);
 
   // Открытие попапа
@@ -32,6 +34,14 @@ function App() {
       setPopupCard([]);
     }, 600);
   };
+
+  // Закрытие политики конфиденциальности
+  const handleClosePrivacy = () => {
+    setIsPrivacyOpen(false);
+    setTimeout(() => {
+      setPopupCard([]);
+    }, 600);
+  }
 
   // Закрытие прелоудера
   const closePreloader = () => {
@@ -55,7 +65,9 @@ function App() {
             <Main
               onOpen={handleOpenPopup}
             />
-            <Footer />
+            <Footer
+              onOpen={ () => setIsPrivacyOpen(true) }
+            />
             <Preloader
               isOpen={isPreloaderOpen}
             />
@@ -67,6 +79,10 @@ function App() {
               onClose={handleClosePopup}
               isOpen={isPopupOpen}
               popupCard={popupCard}
+            />
+            <Privacy
+              onClose={handleClosePrivacy}
+              isOpen={isPrivacyOpen}
             />
           </>
         } />

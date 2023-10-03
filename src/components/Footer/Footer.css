@@ -50,5 +50,15 @@
 }
 
 .footer__link {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: underline;
   color: var(--bg-color);
+  cursor: pointer;
+  transition: .7s ease;
+}
+
+.footer__link:hover {
+  opacity: .6;
 }

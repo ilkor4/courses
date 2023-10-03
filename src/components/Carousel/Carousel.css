@@ -5,6 +5,7 @@
   flex-direction: column;
   overflow: hidden;
   cursor: pointer;
+  background-color: var(--bg-color);
 }
 
 .carousel__container {

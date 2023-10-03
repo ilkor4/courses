@@ -22,8 +22,8 @@
 
 .popup__container {
   width: 80%;
-  min-height: 70vh;
-  padding-bottom: 10px;
+  min-height: 50vh;
+  padding: 0 15px 10px;
   box-sizing: border-box;
   background-color: var(--bg-color);
   border: 1px solid var(--main-color);
@@ -106,6 +106,10 @@
   font-weight: 200;
   font-size: var(--font-size-small);
   line-height: 1.4;
+}
+
+.popup__link {
+  text-decoration: none;
 }
 
 .popup__button {

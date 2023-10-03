@@ -1,0 +1,58 @@
+.privacy {
+  width: 100%;
+  max-width: 456px;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, .75);
+  font-family: var(--font-family);
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: .6s ease-in;
+}
+
+.privacy_opened {
+  opacity: 1;
+  visibility: visible;
+}
+
+.privacy__container {
+  width: 80%;
+  height: 70vh;
+  padding: 0 15px 10px;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, .3);
+}
+
+.privacy__close-button {
+  margin: 0 0 0 auto;
+  transform: translate(20px, -50px);
+  min-width: 40px;
+  max-width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-position: center;
+  background-image: url(../../images/buttons/closeButton.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.privacy__close-button:hover {
+  opacity: .6;
+}
+
+.privacy__text {
+  color: var(--main-color);
+  font-size: var(--font-size-small);
+  font-weight: 200;
+  line-height: 1.4;
+  max-height: 90%;
+  overflow: scroll;
+}

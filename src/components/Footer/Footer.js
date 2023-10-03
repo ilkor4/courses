@@ -5,7 +5,7 @@ import headerLogo from '../../images/logo.png';
 
 import '../Footer/Footer.css';
 
-export default function Footer() {
+export default function Footer(props) {
   return(
     <footer className='footer'>
       <div className='decor'>
@@ -24,7 +24,7 @@ export default function Footer() {
             <li className='footer__text'>ИНН 190123177745</li>
             <li className='footer__text'>ОГРН 321774600524921</li>
           </ul>
-          <Link to='#' className='footer__link'><p className='footer__text'>Политика конфиденциальности</p></Link>
+          <button onClick={ props.onOpen} className='footer__link'><p className='footer__text'>Политика конфиденциальности</p></button>
           <Link to='https://github.com/ilkor4' target='blank' className='footer__link'>
             <p className='footer__text'>Дизайн и вёрстка сайта -</p>
             <p className='footer__text'>@ilkor</p>
