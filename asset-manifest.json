@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b09feed1.css",
+    "main.css": "/static/css/main.cd23b257.css",
     "main.js": "/static/js/main.17c63eef.js",
     "static/media/background-video.mp4": "/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
@@ -42,11 +42,11 @@
     "static/media/closeButton-light.svg": "/static/media/closeButton-light.dd3f6609040711e8be19.svg",
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
     "index.html": "/index.html",
-    "main.b09feed1.css.map": "/static/css/main.b09feed1.css.map",
+    "main.cd23b257.css.map": "/static/css/main.cd23b257.css.map",
     "main.17c63eef.js.map": "/static/js/main.17c63eef.js.map"
   },
   "entrypoints": [
-    "static/css/main.b09feed1.css",
+    "static/css/main.cd23b257.css",
     "static/js/main.17c63eef.js"
   ]
 }
