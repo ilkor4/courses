@@ -70,7 +70,8 @@ export default function Burger(props) {
               </ul>
             </nav>
             <ul className='burger__caption'>
-              <li className='burger__text'>Кондитерская мастерская "Cakes by Julia"</li>
+              <li className='burger__text'>Кондитерская мастерская</li>
+              <li className='burger__text'>"Cakes by Julia"</li>
               <li className='burger__text'>г. Волгоград</li>
             </ul>
             <div className='burger__social-icons'>

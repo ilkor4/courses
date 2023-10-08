@@ -93,12 +93,15 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .burger__text {
   font-weight: 200;
   color: var(--text-color);
+}
+
+.burger__text:nth-of-type(3) {
+  margin-top: 10px;
 }
 
 .burger__social-icons {

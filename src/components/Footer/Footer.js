@@ -21,8 +21,8 @@ export default function Footer(props) {
           <ul className='footer__text-list'>
             <li className='footer__text'>ИП Саратовцева Юлия</li>
             <li className='footer__text'>Валерьевна</li>
-            <li className='footer__text'>ИНН 190123177745</li>
-            <li className='footer__text'>ОГРН 321774600524921</li>
+            <li className='footer__text'>ИНН 344708345797</li>
+            <li className='footer__text'>ОГРНИП 319344300056971</li>
           </ul>
           <button onClick={ props.onOpen} className='footer__link'><p className='footer__text'>Политика конфиденциальности</p></button>
           <Link to='https://github.com/ilkor4' target='blank' className='footer__link'>

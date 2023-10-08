@@ -26,7 +26,7 @@ export default function About() {
               <h4 className='about__title'>
                 Рецепт
               </h4>
-              <p className='about__text'>Список ингредиентов в&nbsp;граммах и&nbsp;миллилитрах для каждого слоя</p>
+              <p className='about__text'>Список ингредиентов в&nbsp;граммах и&nbsp;миллилитрах для каждой начинки</p>
             </li>
           </ul>
           <div className='about__item'>
