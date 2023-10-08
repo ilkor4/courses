@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd23b257.css",
-    "main.js": "/static/js/main.5bc9ea53.js",
+    "main.css": "/static/css/main.e46f8f7f.css",
+    "main.js": "/static/js/main.1d382726.js",
     "static/media/background-video.mp4": "/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/napoleon.jpg": "/static/media/napoleon.d687cdb9ce002c3cfe7c.jpg",
@@ -28,7 +28,7 @@
     "static/media/SFProDisplay-Light.woff2": "/static/media/SFProDisplay-Light.54469e3c52efb3dffc83.woff2",
     "static/media/SFProDisplay-Bold.woff2": "/static/media/SFProDisplay-Bold.84c242fe1f30a86d5ab3.woff2",
     "static/media/SFProDisplay-Regular.woff2": "/static/media/SFProDisplay-Regular.d5ff9f6824d2c6607361.woff2",
-    "static/media/logo.png": "/static/media/logo.f6e37d7d058ad18365a7.png",
+    "static/media/logo.png": "/static/media/logo.c1ca8e9127ffd81a217a.png",
     "static/media/order.png": "/static/media/order.aebf43bf440d1bc71dc0.png",
     "static/media/cost.png": "/static/media/cost.8fbb6475af034d513fbd.png",
     "static/media/techcard.png": "/static/media/techcard.dec1c32847267dd43357.png",
@@ -42,11 +42,11 @@
     "static/media/closeButton-light.svg": "/static/media/closeButton-light.dd3f6609040711e8be19.svg",
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
     "index.html": "/index.html",
-    "main.cd23b257.css.map": "/static/css/main.cd23b257.css.map",
-    "main.5bc9ea53.js.map": "/static/js/main.5bc9ea53.js.map"
+    "main.e46f8f7f.css.map": "/static/css/main.e46f8f7f.css.map",
+    "main.1d382726.js.map": "/static/js/main.1d382726.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd23b257.css",
-    "static/js/main.5bc9ea53.js"
+    "static/css/main.e46f8f7f.css",
+    "static/js/main.1d382726.js"
   ]
 }
