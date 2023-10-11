@@ -66,6 +66,26 @@
   letter-spacing: 1px;
 }
 
+.popup__image-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.popup__price {
+  position: absolute;
+  top: 10px;
+  right: calc(25% + 10px);
+  padding: 3px;
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
 .popup__image {
   width: 50%;
   aspect-ratio: 1/1.3;

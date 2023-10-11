@@ -25,7 +25,10 @@ export default function Popup(props) {
           </div>
           <div className='popup__card'>
             <h2 className="popup__title">{ props.popupCard && props.popupCard.title }</h2>
-            <img className="popup__image" src={ props.popupCard && props.popupCard.link } alt={ props.popupCard && props.popupCard.alt }/>
+            <div className='popup__image-container'>
+              <img className="popup__image" src={ props.popupCard && props.popupCard.link } alt={ props.popupCard && props.popupCard.alt }/>
+              <div className='popup__price'>{ props.popupCard.cost && props.popupCard.cost }</div>
+            </div>
             <div className="popup__description">
               <h3 className="popup__description-title">Состав:</h3>
               <ul className='popup__description-list'>
