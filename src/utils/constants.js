@@ -4,6 +4,7 @@ import mangoImage from '../images/techCards/mango.jpg';
 import snickersImage from '../images/techCards/snickers.jpg';
 import napoleonImage from '../images/techCards/napoleon.jpg';
 import passionFruitImage from '../images/techCards/passionFruit.jpg';
+import ganashImage from '../images/techCards/ganash.jpg';
 
 import reviewOneImage from '../images/reviews/review-one.jpg';
 import reviewTwoImage from '../images/reviews/review-two.jpg';
@@ -15,6 +16,8 @@ import reviewSevenImage from '../images/reviews/review-seven.jpg';
 import reviewEightImage from '../images/reviews/review-eight.jpg';
 import reviewNineImage from '../images/reviews/review-nine.jpg';
 import reviewTenImage from '../images/reviews/review-ten.jpg';
+import reviewElevenImage from '../images/reviews/review-eleven.png';
+import reviewTwelveImage from '../images/reviews/review-twelve.jpg';
 
 
 export const cardsArray = [
@@ -64,6 +67,22 @@ export const cardsArray = [
       'Сырный крем для выравнивания'
     ],
     linkText: 'Добрый день! Я хочу купить у вас тех-карту торта манго-черника)',
+  },
+  {
+    title: 'Шоколадный ганаш',
+    text: 'Ганаш подойдет как для выравнивания ярусных тортов, так и для стандартных небольших',
+    link: ganashImage,
+    alt: 'Шоколадный ганаш',
+    cost: '2000 р.',
+    description: [
+      'Вкусный, сливочный',
+      'Без использования глазури',
+      'Пластичный, не бетонный',
+      'Плотный и выдерживает транспортировки',
+      'Подходит под любой декор',
+      'Видеоурок по приготовлению'
+    ],
+    linkText: 'Добрый день! Я хочу купить у вас тех-карту ганаша)',
   },
   {
     title: 'Сникерс',
@@ -152,6 +171,14 @@ export const portfolioArray = [
   {
     link: reviewTenImage,
     alt: 'Отзыв 10'
+  },
+  {
+    link: reviewElevenImage,
+    alt: 'Отзыв 11'
+  },
+  {
+    link: reviewTwelveImage,
+    alt: 'Отзыв 12'
   }
 ]
 
