@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.08e6f151.css",
-    "main.js": "/static/js/main.087acf86.js",
+    "main.js": "/static/js/main.9ba57009.js",
     "static/media/background-video.mp4": "/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
+    "static/media/review-eleven.png": "/static/media/review-eleven.aafe46618626d6ce7652.png",
     "static/media/napoleon.jpg": "/static/media/napoleon.d687cdb9ce002c3cfe7c.jpg",
     "static/media/review-four.jpg": "/static/media/review-four.dd752363527524b31879.jpg",
     "static/media/snickers.jpg": "/static/media/snickers.3dbf9d5558cca988522a.jpg",
     "static/media/latte.jpg": "/static/media/latte.f98d9e7c867706f39f24.jpg",
     "static/media/posterImage.jpg": "/static/media/posterImage.6865fb5d9aefe62306a7.jpg",
     "static/media/review-seven.jpg": "/static/media/review-seven.e7b7b6afff6e75828290.jpg",
+    "static/media/ganash.jpg": "/static/media/ganash.7df5f7d4c0fdfb21d1bc.jpg",
     "static/media/mango.jpg": "/static/media/mango.d3bda1da2c02585942ca.jpg",
     "static/media/review-eight.jpg": "/static/media/review-eight.98597794bf88c888ab41.jpg",
     "static/media/review-nine.jpg": "/static/media/review-nine.72e34b93fb8f1708649a.jpg",
@@ -25,6 +27,7 @@
     "static/media/SFProDisplay-Bold.woff": "/static/media/SFProDisplay-Bold.5b08afd6b167d7ec48ce.woff",
     "static/media/SFProDisplay-Regular.woff": "/static/media/SFProDisplay-Regular.7ee14c637e39445d7093.woff",
     "static/media/phone.png": "/static/media/phone.c1e0a7fb1f17031ad681.png",
+    "static/media/review-twelve.jpg": "/static/media/review-twelve.36f5cd6c5f20e849de94.jpg",
     "static/media/SFProDisplay-Light.woff2": "/static/media/SFProDisplay-Light.54469e3c52efb3dffc83.woff2",
     "static/media/SFProDisplay-Bold.woff2": "/static/media/SFProDisplay-Bold.84c242fe1f30a86d5ab3.woff2",
     "static/media/SFProDisplay-Regular.woff2": "/static/media/SFProDisplay-Regular.d5ff9f6824d2c6607361.woff2",
@@ -43,10 +46,10 @@
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
     "index.html": "/index.html",
     "main.08e6f151.css.map": "/static/css/main.08e6f151.css.map",
-    "main.087acf86.js.map": "/static/js/main.087acf86.js.map"
+    "main.9ba57009.js.map": "/static/js/main.9ba57009.js.map"
   },
   "entrypoints": [
     "static/css/main.08e6f151.css",
-    "static/js/main.087acf86.js"
+    "static/js/main.9ba57009.js"
   ]
 }
