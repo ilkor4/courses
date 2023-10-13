@@ -98,3 +98,9 @@
   max-height: min-content;
 }
 
+@media screen and (min-width: 456px ){
+  .question {
+    width: 60%;
+    padding: 10px;
+  }
+}

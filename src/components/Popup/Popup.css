@@ -1,6 +1,5 @@
 .popup {
   width: 100%;
-  max-width: 456px;
   height: 100%;
   position: fixed;
   background-color: rgba(0, 0, 0, .75);
@@ -158,4 +157,31 @@
 .popup__button-image {
   padding: 5px;
   width: 16px;
+}
+
+
+@media screen and (min-width: 568px ){
+  .popup__container {
+    width: 60%;
+  }
+
+  .popup__image {
+    width: 200px;
+  }
+
+  .popup__price {
+    right: calc((100% - 200px)/2 + 10px) ;
+  }
+}
+
+@media screen and (min-width: 768px ){
+  .popup__container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 984px ){
+  .popup__container {
+    width: 40%;
+  }
 }

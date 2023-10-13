@@ -7,9 +7,7 @@ html {
 
 body {
   margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  --main-color: #C9B7A7;
+  background-color: #c2b3a6;
   --main-color: white;
   --bg-color-light: #F4F1EC;
   --bg-color: #c2b3a6;

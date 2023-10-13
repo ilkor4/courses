@@ -1,6 +1,5 @@
 .privacy {
   width: 100%;
-  max-width: 456px;
   height: 100%;
   position: fixed;
   background-color: rgba(0, 0, 0, .75);
@@ -56,3 +55,22 @@
   max-height: 90%;
   overflow: scroll;
 }
+
+@media screen and (min-width: 568px ){
+  .privacy__container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px ){
+  .privacy__container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 984px ){
+  .privacy__container {
+    width: 40%;
+  }
+}
+

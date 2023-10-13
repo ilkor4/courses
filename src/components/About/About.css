@@ -110,3 +110,20 @@
   }
 }
 
+@media screen and (min-width: 568px ){
+  .about__container {
+    gap: 50px;
+  }
+
+  .about__container-title {
+    padding: 20px;
+    width: 60%;
+  }
+
+  .about__description{
+    gap: 50px;
+    grid-template-columns: 300px 200px;
+    grid-template-rows:  1fr;
+  }
+}
+

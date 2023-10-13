@@ -65,3 +65,19 @@
   width: 100%;
   object-fit: contain;
 }
+
+@media screen and (min-width: 456px ){
+  .contacts__social-icons {
+    flex-direction: row;
+    gap: 100px;
+  }
+
+  .contacts__container{
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .contacts__image {
+    width: 200px;
+  }
+}
