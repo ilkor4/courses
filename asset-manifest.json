@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b6435b2.css",
-    "main.js": "/static/js/main.979ef558.js",
+    "main.css": "/static/css/main.16a3e6ed.css",
+    "main.js": "/static/js/main.3abcb57e.js",
     "static/media/background-video.mp4": "/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/napoleon.jpg": "/static/media/napoleon.d687cdb9ce002c3cfe7c.jpg",
+    "static/media/pineapple.jpg": "/static/media/pineapple.af5c5384c7cc03b02523.jpg",
     "static/media/review-four.jpg": "/static/media/review-four.dd752363527524b31879.jpg",
     "static/media/snickers.jpg": "/static/media/snickers.3dbf9d5558cca988522a.jpg",
     "static/media/latte.jpg": "/static/media/latte.f98d9e7c867706f39f24.jpg",
+    "static/media/strawberry.jpg": "/static/media/strawberry.0c8a50f3cf717908844e.jpg",
     "static/media/posterImage.jpg": "/static/media/posterImage.6865fb5d9aefe62306a7.jpg",
     "static/media/review-seven.jpg": "/static/media/review-seven.e7b7b6afff6e75828290.jpg",
     "static/media/ganash.jpg": "/static/media/ganash.7df5f7d4c0fdfb21d1bc.jpg",
@@ -45,11 +47,11 @@
     "static/media/closeButton-light.svg": "/static/media/closeButton-light.dd3f6609040711e8be19.svg",
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
     "index.html": "/index.html",
-    "main.5b6435b2.css.map": "/static/css/main.5b6435b2.css.map",
-    "main.979ef558.js.map": "/static/js/main.979ef558.js.map"
+    "main.16a3e6ed.css.map": "/static/css/main.16a3e6ed.css.map",
+    "main.3abcb57e.js.map": "/static/js/main.3abcb57e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b6435b2.css",
-    "static/js/main.979ef558.js"
+    "static/css/main.16a3e6ed.css",
+    "static/js/main.3abcb57e.js"
   ]
 }
