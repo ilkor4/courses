@@ -1,3 +1,46 @@
+.card__info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-medium);
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.card__old-price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-medium);
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-decoration: line-through;
+}
+
+.card__new-price {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  padding: 5px;
+  font-family: var(--font-family);
+  font-size: var(--font-size-medium);
+  color: var(--bg-color);
+  background-color: black;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
 .card__description {
   position: absolute;
   bottom: 0;

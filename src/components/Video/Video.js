@@ -14,7 +14,7 @@ export default function Video() {
         <source src={backgroundVideo} type="video/mp4" />
       </video>
       <div className="video-container__text">
-        <Link to='#carousel'><button className='video-container__button'>Подобрать техкарту</button></Link>
+        <Link to='#carousel'><button className='video-container__button'>Подобрать урок</button></Link>
       </div>
     </div>
   )

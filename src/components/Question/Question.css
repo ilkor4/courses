@@ -6,7 +6,6 @@
   border-radius: 10px;
   border: 1px solid var(--bg-color);
   display: flex;
-  transition: .6s ease;
   flex-direction: column;
   cursor: pointer;
   transition: .8s ease-in-out;
@@ -37,12 +36,12 @@
   background-repeat: no-repeat;
 }
 
-.question__image_cost {
-  background-image: url(../../images/icons/cost.png);
+.question__image_connection {
+  background-image: url(../../images/icons/connection.png);
 }
 
-.question__image_order {
-  background-image: url(../../images/icons/order.png);
+.question__image_payment {
+  background-image: url(../../images/icons/payment.png);
 }
 
 .question__image_important {

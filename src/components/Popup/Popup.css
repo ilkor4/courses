@@ -114,7 +114,8 @@
 }
 
 .popup__description-list {
-  overflow-y: scroll;
+  max-height: 157px;
+  overflow: scroll;
   margin: 0;
   padding: 0 0 0 15px;
 }
@@ -159,7 +160,6 @@
   width: 16px;
 }
 
-
 @media screen and (min-width: 568px ){
   .popup__container {
     width: 60%;
@@ -185,3 +185,22 @@
     width: 40%;
   }
 }
+
+@media screen and (max-width: 410px ){
+  .popup__description-list {
+    max-height: 140px;
+  }
+}
+
+@media screen and (max-width: 380px ){
+  .popup__description-list {
+    max-height: 120px;
+  }
+}
+
+@media screen and (max-width: 360px ){
+  .popup__description-list {
+    max-height: 100px;
+  }
+}
+

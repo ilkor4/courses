@@ -5,6 +5,8 @@ import snickersImage from '../images/techCards/snickers.jpg';
 import napoleonImage from '../images/techCards/napoleon.jpg';
 import passionFruitImage from '../images/techCards/passionFruit.jpg';
 import ganashImage from '../images/techCards/ganash.jpg';
+import strawberryImage from '../images/techCards/strawberry.jpg';
+import pineappleImage from '../images/techCards/pineapple.jpg';
 
 import reviewOneImage from '../images/reviews/review-one.jpg';
 import reviewTwoImage from '../images/reviews/review-two.jpg';
@@ -16,17 +18,52 @@ import reviewSevenImage from '../images/reviews/review-seven.jpg';
 import reviewEightImage from '../images/reviews/review-eight.jpg';
 import reviewNineImage from '../images/reviews/review-nine.jpg';
 import reviewTenImage from '../images/reviews/review-ten.jpg';
-import reviewElevenImage from '../images/reviews/review-eleven.png';
+import reviewElevenImage from '../images/reviews/review-eleven.jpg';
 import reviewTwelveImage from '../images/reviews/review-twelve.jpg';
 
 
 export const cardsArray = [
+  {
+    title: 'Клубничный бархат',
+    text: 'Эффектная классика и любимец многих, только чуточку интересней',
+    link: strawberryImage,
+    alt: 'Десерт клубничный бархат',
+    cost: '1000 р.',
+    newCost: '700 р.',
+    new: true,
+    description: [
+      'Бисквит красный бархат',
+      'Ганаш клубничный милкшейк',
+      'Клубничный конфитюр',
+      'Сырно-сливочный крем для начинки',
+      'Сырный крем для выравнивания',
+    ],
+    linkText: 'Добрый день! Я хочу купить у вас тех-карту клубничный бархат)',
+  },
+  {
+    title: 'Ананас – Кокос – Молочный шоколад',
+    text: 'Удивительное сочетание тропического вкуса, молочного шоколада и нежности текстур',
+    link: pineappleImage,
+    alt: 'Десерт Ананас – Кокос – Молочный шоколад',
+    cost: '1000 р.',
+    newCost: '700 р.',
+    new: true,
+    description: [
+      'Бисквит с молочным шоколадом',
+      'Кокосовый ганаш',
+      'Ананасовый конфитюр',
+      'Шоколадный сырный крем для начинки',
+      'Шоколадный сырный крем для выравнивания',
+    ],
+    linkText: 'Добрый день! Я хочу купить у вас тех-карту Ананас – Кокос – Молочный шоколад)',
+  },
   {
     title: 'Чизкейки на палочке',
     text: 'Кусочек чизкейка в хрустящей щоколадной глазури',
     link: chezeecakesImage,
     alt: 'Десерт чизкейк',
     cost: '2000 р.',
+    newCost: '1400 р.',
     description: [
       'Сабле (миндальная песочная основа): ванильная, шоколадная',
       'Сырный слой (с выпечкой): клубничный, шоколадный, фисташковый',
@@ -42,6 +79,7 @@ export const cardsArray = [
     link: latteImage,
     alt: 'Торт карамельно-ореховый латте',
     cost: '1000 р.',
+    newCost: '700 р.',
     description: [
       'Ванильный бисквит',
       'Латте пропитка',
@@ -58,6 +96,7 @@ export const cardsArray = [
     link: mangoImage,
     alt: 'Торт манго-черника',
     cost: '1000 р.',
+    newCost: '700 р.',
     description: [
       'Шоколадный бисквит',
       'Конфи манго',
@@ -74,11 +113,13 @@ export const cardsArray = [
     link: ganashImage,
     alt: 'Шоколадный ганаш',
     cost: '2000 р.',
+    newCost: '1400 р.',
     description: [
       'Вкусный, сливочный',
       'Без использования глазури',
+      'Можно заменить на молочный шоколад в тех же пропорциях',
       'Пластичный, не бетонный',
-      'Плотный и выдерживает транспортировки',
+      'Плотный и выдерживает длительные транспортировки ~ 3 часа (при условии кондиционера)',
       'Подходит под любой декор',
       'Видеоурок по приготовлению'
     ],
@@ -90,6 +131,7 @@ export const cardsArray = [
     link: snickersImage,
     alt: 'Торт сникерс',
     cost: '1000 р.',
+    newCost: '700 р.',
     description: [
       'Шоколадный бисквит',
       'Шоколадный взбитый ганаш',
@@ -106,6 +148,7 @@ export const cardsArray = [
     link: napoleonImage,
     alt: 'Торт наполеон',
     cost: '1000 р.',
+    newCost: '700 р.',
     description: [
       'Слоеные хрустящие коржи',
       'Сливочно-заварной крем',
@@ -120,6 +163,7 @@ export const cardsArray = [
     link: passionFruitImage,
     alt: 'Торт Маракуйя-дорблю',
     cost: '1000 р.',
+    newCost: '700 р.',
     description: [
       'Ванильный бисквит',
       'Конфи маракуйя',
@@ -184,46 +228,25 @@ export const portfolioArray = [
 
 export const questionsArray = [
   {
-    question: 'Сколько стоит тех-карта?',
-    answer: 'Стоимость тех-карты варьируется от 500 до 1000 рублей в зависимости от вида.',
-    class: 'question__image_cost'
-  },
-  {
     question: 'Что входит в тех-карту?',
-    answer: 'Тех-карта состоит из пошаговой инструкции по созданию десерта, рецепта, расписанного по граммам и 2 видео сборки этого продукта',
+    answer: 'Тех-карта состоит из подробной пошаговой инструкции по приготовлению десерта и рецепта, расписанного по граммам.',
     class: 'question__image_techcard'
   },
   {
     question: 'Как производить оплату?',
-    answer: 'После выбора понравившейся тех-карту, нажимаете на кнопку оформить заказ и выбираете удобный для вас способ оплаты.',
-    class: 'question__image_order'
+    answer: 'Выберите понравившеюся тех-карту, нажмите на кнопку "купить", и вы автоматически перенаправитесь в мессенджер WhatsApp. После отправленного вами сообщения, вы в ближайшее время получите инструкцию на оплату вашего урока.',
+    class: 'question__image_payment'
   },
   {
     question: 'Что важно знать?',
-    answer: 'Если по какой-то причине вы не смогли оформить заказ, вы можете связать с нами в любой социальной сети и мы вышлем вам инструкцию.',
+    answer: 'Если по какой-то причине вы не смогли оформить заказ, то можете связаться с мной в любой социальной сети, и я обязательно помогу приобрести урок.',
     class: 'question__image_important'
   },
   {
-    question: 'Сколько стоит тех-карта?',
-    answer: 'Стоимость тех-карты варьируется от 500 до 1000 рублей в зависимости от вида.',
-    class: 'question__image_cost'
+    question: 'Есть ли обратная связь?',
+    answer: 'Если у вас возникнут вопросы или возникнут сложности, свяжитесь со мной в любом мессенджере, и я с радостью помогу.',
+    class: 'question__image_connection'
   },
-  {
-    question: 'Что входит в тех-карту?',
-    answer: 'Тех-карта состоит из пошаговой инструкции по созданию десерта, рецепта, расписанного по граммам и 2 видео сборки этого продукта',
-    class: 'question__image_techcard'
-  },
-  {
-    question: 'Как производить оплату?',
-    answer: 'После выбора понравившейся тех-карту, нажимаете на кнопку оформить заказ и выбираете удобный для вас способ оплаты.',
-    class: 'question__image_order'
-  },
-  {
-    question: 'Что важно знать?',
-    answer: 'Если по какой-то причине вы не смогли оформить заказ, вы можете связать с нами в любой социальной сети и мы вышлем вам инструкцию.',
-    class: 'question__image_important'
-  },
-
 ]
 
 
