@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba0d0433.css",
-    "main.js": "/static/js/main.afaabd54.js",
+    "main.css": "/static/css/main.df9279ae.css",
+    "main.js": "/static/js/main.f4001df4.js",
     "static/media/background-video.mp4": "/static/media/background-video.b7b04910b86b8c2397a8.mp4",
     "static/media/cheezecakes.jpg": "/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/napoleon.jpg": "/static/media/napoleon.d687cdb9ce002c3cfe7c.jpg",
@@ -47,11 +47,11 @@
     "static/media/closeButton.svg": "/static/media/closeButton.a1157d49bea69945b401.svg",
     "static/media/closeButton-light.svg": "/static/media/closeButton-light.dd3f6609040711e8be19.svg",
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
-    "main.ba0d0433.css.map": "/static/css/main.ba0d0433.css.map",
-    "main.afaabd54.js.map": "/static/js/main.afaabd54.js.map"
+    "main.df9279ae.css.map": "/static/css/main.df9279ae.css.map",
+    "main.f4001df4.js.map": "/static/js/main.f4001df4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba0d0433.css",
-    "static/js/main.afaabd54.js"
+    "static/css/main.df9279ae.css",
+    "static/js/main.f4001df4.js"
   ]
 }
