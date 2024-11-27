@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cb0f7ac5.css",
-    "main.js": "/static/js/main.02d91016.js",
-    "static/media/background-video.mp4": "/static/media/background-video.b7b04910b86b8c2397a8.mp4",
+    "main.js": "/static/js/main.90e085da.js",
+    "static/media/background-video.mp4": "/static/media/background-video.37391a7eea35c56c828a.mp4",
     "static/media/honeyCake.jpg": "/static/media/honeyCake.124af3644bd74a639aef.jpg",
     "static/media/cheezecakes.jpg": "/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/napoleon.jpg": "/static/media/napoleon.d687cdb9ce002c3cfe7c.jpg",
@@ -57,10 +57,10 @@
     "static/media/closeButton-light.svg": "/static/media/closeButton-light.dd3f6609040711e8be19.svg",
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
     "main.cb0f7ac5.css.map": "/static/css/main.cb0f7ac5.css.map",
-    "main.02d91016.js.map": "/static/js/main.02d91016.js.map"
+    "main.90e085da.js.map": "/static/js/main.90e085da.js.map"
   },
   "entrypoints": [
     "static/css/main.cb0f7ac5.css",
-    "static/js/main.02d91016.js"
+    "static/js/main.90e085da.js"
   ]
 }
