@@ -1,5 +1,7 @@
 import bananaImage from '../images/techCards/banana.jpg';
 import passionImage from '../images/techCards/passion.jpg';
+import cherryImage from '../images/techCards/cherry.jpg';
+import honeyCakeImage from '../images/techCards/honeyCake.jpg';
 import chezeecakesImage from '../images/techCards/cheezecakes.jpg';
 import latteImage from '../images/techCards/latte.jpg';
 import mangoImage from '../images/techCards/mango.jpg';
@@ -48,6 +50,40 @@ export const cardsArray = [
       'Сырный ганаш для выравнивания'
     ],
     linkText: 'Добрый день! Я хочу купить у вас тех-карту Банан - Cмородина)',
+  },
+  {
+    title: 'Вишня - Шоколад',
+    text: 'Словно шоколадное мороженое с вишней, усовершенствованная классика',
+    link: cherryImage,
+    alt: 'Десерт Вишня - Шоколад',
+    cost: '1000 р.',
+    newCost: '700 р.',
+    new: true,
+    description: [
+      'Шоколадный бисквит',
+      'Вишневый конфитюр',
+      'Шоколадный мусс',
+      'Сырно-сливочный крем',
+      'Cырный крем с белым шоколадом для выравнивания',
+    ],
+    linkText: 'Добрый день! Я хочу купить у вас тех-карту Вишня - Шоколад)',
+  },
+  {
+    title: 'Медовик',
+    text: 'Не похожий на все стандартные медовики, но влюбит в себя каждого',
+    link: honeyCakeImage,
+    alt: 'Десерт Медовик',
+    cost: '1000 р.',
+    newCost: '700 р.',
+    new: true,
+    description: [
+      'Ароматные медовые коржи',
+      'Сметанно-сырный крем',
+      'Фруктово-ягодное конфи для начинки',
+      'Сливочная карамель для начинки',
+      'Сырный ганаш для выравнивания',
+    ],
+    linkText: 'Добрый день! Я хочу купить у вас тех-карту Медовик)',
   },
   {
     title: 'Маракуйя - Шоколад - Кокос',
@@ -101,7 +137,7 @@ export const cardsArray = [
   },
   {
     title: 'Чизкейки на палочке',
-    text: 'Кусочек чизкейка в хрустящей щоколадной глазури',
+    text: 'Технологическая карта на порционные чизкейки в шоколадной глазури с подробными фото процессами',
     link: chezeecakesImage,
     alt: 'Десерт чизкейк',
     cost: '2000 р.',
