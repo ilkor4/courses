@@ -1,3 +1,5 @@
+import bananaImage from '../images/techCards/banana.jpg';
+import passionImage from '../images/techCards/passion.jpg';
 import chezeecakesImage from '../images/techCards/cheezecakes.jpg';
 import latteImage from '../images/techCards/latte.jpg';
 import mangoImage from '../images/techCards/mango.jpg';
@@ -8,21 +10,63 @@ import ganashImage from '../images/techCards/ganash.jpg';
 import strawberryImage from '../images/techCards/strawberry.jpg';
 import pineappleImage from '../images/techCards/pineapple.jpg';
 
-import reviewOneImage from '../images/reviews/review-one.jpg';
-import reviewTwoImage from '../images/reviews/review-two.jpg';
-import reviewThreeImage from '../images/reviews/review-three.jpg';
-import reviewFourImage from '../images/reviews/review-four.jpg';
-import reviewFiveImage from '../images/reviews/review-five.jpg';
-import reviewSixImage from '../images/reviews/review-six.jpg';
-import reviewSevenImage from '../images/reviews/review-seven.jpg';
-import reviewEightImage from '../images/reviews/review-eight.jpg';
-import reviewNineImage from '../images/reviews/review-nine.jpg';
-import reviewTenImage from '../images/reviews/review-ten.jpg';
-import reviewElevenImage from '../images/reviews/review-eleven.jpg';
-import reviewTwelveImage from '../images/reviews/review-twelve.jpg';
+import reviewOneImage from '../images/reviews/review-1.jpg';
+import reviewTwoImage from '../images/reviews/review-2.jpg';
+import reviewThreeImage from '../images/reviews/review-3.jpg';
+import reviewFourImage from '../images/reviews/review-4.jpg';
+import reviewFiveImage from '../images/reviews/review-5.jpg';
+import reviewSixImage from '../images/reviews/review-6.jpg';
+import reviewSevenImage from '../images/reviews/review-7.jpg';
+import reviewEightImage from '../images/reviews/review-8.jpg';
+import reviewNineImage from '../images/reviews/review-9.jpg';
+import reviewTenImage from '../images/reviews/review-10.jpg';
+import reviewElevenImage from '../images/reviews/review-11.jpg';
+import reviewTwelveImage from '../images/reviews/review-12.jpg';
+import reviewThirteenImage from '../images/reviews/review-13.jpg';
+import reviewFourteenImage from '../images/reviews/review-14.jpg';
+import reviewFifteenImage from '../images/reviews/review-15.jpg';
+import reviewSixteenthImage from '../images/reviews/review-16.jpg';
+import reviewSeventeenImage from '../images/reviews/review-17.jpg';
 
 
 export const cardsArray = [
+  {
+    title: 'Банан - Cмородина',
+    text: 'Баланс яркой кислинки смородины с легким банановым послевкусием',
+    link: bananaImage,
+    alt: 'Десерт Банан - Cмородина',
+    cost: '1000 р.',
+    newCost: '700 р.',
+    new: true,
+    description: [
+      'Банановый бисквит',
+      'Смородиновое конфи',
+      'Банановый ганаш',
+      'Смородиновый мусс',
+      'Цельная голубика',
+      'Сырный крем на белом шоколаде',
+      'Сырный ганаш для выравнивания'
+    ],
+    linkText: 'Добрый день! Я хочу купить у вас тех-карту Банан - Cмородина)',
+  },
+  {
+    title: 'Маракуйя - Шоколад - Кокос',
+    text: 'Тропический баланс вкусов и сложность начинок, которые здорово сочетаются друг с другом',
+    link: passionImage,
+    alt: 'Десерт Маракуйя - Шоколад - Кокос',
+    cost: '1000 р.',
+    newCost: '700 р.',
+    new: true,
+    description: [
+      'Воздушный шоколадный бисквит',
+      'Кокосовый чизкейк (с выпечкой)',
+      'Кремю маракуйя',
+      'Конфи маракуйя',
+      'Шоколадный крем с творожным сыром',
+      'Сырный ганаш для выравнивания'
+    ],
+    linkText: 'Добрый день! Я хочу купить у вас тех-карту Маракуйя - Шоколад - Кокос)',
+  },
   {
     title: 'Клубничный бархат',
     text: 'Эффектная классика и любимец многих, только чуточку интересней',
@@ -30,7 +74,6 @@ export const cardsArray = [
     alt: 'Десерт клубничный бархат',
     cost: '1000 р.',
     newCost: '700 р.',
-    new: true,
     description: [
       'Бисквит красный бархат',
       'Ганаш клубничный милкшейк',
@@ -47,7 +90,6 @@ export const cardsArray = [
     alt: 'Десерт Ананас – Кокос – Молочный шоколад',
     cost: '1000 р.',
     newCost: '700 р.',
-    new: true,
     description: [
       'Бисквит с молочным шоколадом',
       'Кокосовый ганаш',
@@ -223,7 +265,27 @@ export const portfolioArray = [
   {
     link: reviewTwelveImage,
     alt: 'Отзыв 12'
-  }
+  },
+  {
+    link: reviewThirteenImage,
+    alt: 'Отзыв 13'
+  },
+  {
+    link: reviewFourteenImage,
+    alt: 'Отзыв 14'
+  },
+  {
+    link: reviewFifteenImage,
+    alt: 'Отзыв 15'
+  },
+  {
+    link: reviewSixteenthImage,
+    alt: 'Отзыв 16'
+  },
+  {
+    link: reviewSeventeenImage,
+    alt: 'Отзыв 17'
+  },
 ]
 
 export const questionsArray = [

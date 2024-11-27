@@ -34,7 +34,7 @@
   padding: 5px;
   font-family: var(--font-family);
   font-size: var(--font-size-medium);
-  color: var(--bg-color);
+  color: var(--text-color-dark);
   background-color: black;
   border: 1px solid var(--main-color);
   border-radius: 10px;
