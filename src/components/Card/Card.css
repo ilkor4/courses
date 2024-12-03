@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 
-.card__old-price {
+.card__main-price {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -24,7 +24,6 @@
   border: 1px solid var(--main-color);
   border-radius: 10px;
   box-sizing: border-box;
-  text-decoration: line-through;
 }
 
 .card__new-price {
