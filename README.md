@@ -43,4 +43,4 @@
 ## Ссылки на проект
 
 - Адрес репозитория: https://github.com/ilkor4/courses
-- Deploy https://cakes-by-julia.ru
+- Deploy: https://cakesby-julia.ru/
