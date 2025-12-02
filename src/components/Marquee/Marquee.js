@@ -5,7 +5,7 @@ import '../Marquee/Marquee.css';
 export default function Marquee() {
   return(
     <div className="marquee__container">
-      <p className="marquee__text">BLACK FRIDAY -50% * BLACK FRIDAY -50% * BLACK FRIDAY -50% * BLACK FRIDAY -50% * BLACK FRIDAY -50% * BLACK FRIDAY -50% * BLACK FRIDAY -50% * BLACK FRIDAY -50% * BLACK FRIDAY -50% * BLACK FRIDAY -50% * BLACK FRIDAY -50% *</p>
+      <p className="marquee__text">СAKES  BY JULIA * СAKES  BY JULIA * СAKES  BY JULIA * СAKES  BY JULIA * СAKES  BY JULIA * СAKES  BY JULIA * СAKES  BY JULIA * СAKES  BY JULIA * СAKES  BY JULIA * СAKES  BY JULIA * СAKES  BY JULIA *</p>
     </div>
   )
 }

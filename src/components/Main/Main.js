@@ -16,9 +16,7 @@ export default function Main(props) {
       <>
         <Marquee />
         <Carousel onOpen={props.onOpen}/>
-        <Marquee />
         <About />
-        <Marquee />
         <Portfolio />
         <Questions />
         <Contacts />
