@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c02afee7.css",
-    "main.js": "/static/js/main.35e24e5d.js",
+    "main.css": "/static/css/main.fd50d7c4.css",
+    "main.js": "/static/js/main.8285a899.js",
     "static/media/background-video.mp4": "/static/media/background-video.37391a7eea35c56c828a.mp4",
     "static/media/honeyCake.jpg": "/static/media/honeyCake.124af3644bd74a639aef.jpg",
     "static/media/cheezecakes.jpg": "/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
@@ -32,11 +32,9 @@
     "static/media/review-4.jpg": "/static/media/review-4.380b390518b3923ea44e.jpg",
     "static/media/review-6.jpg": "/static/media/review-6.20d45b7e4def33c92ba4.jpg",
     "static/media/review-3.jpg": "/static/media/review-3.f9782bc4b4ab35cd150d.jpg",
-    "static/media/payment.png": "/static/media/payment.127045fc43e340912400.png",
     "static/media/SFProDisplay-Light.woff": "/static/media/SFProDisplay-Light.9166ce32434fe7e05354.woff",
     "static/media/SFProDisplay-Bold.woff": "/static/media/SFProDisplay-Bold.5b08afd6b167d7ec48ce.woff",
     "static/media/SFProDisplay-Regular.woff": "/static/media/SFProDisplay-Regular.7ee14c637e39445d7093.woff",
-    "static/media/connection.png": "/static/media/connection.452da40254fc2a0ab21b.png",
     "static/media/phone.png": "/static/media/phone.c1e0a7fb1f17031ad681.png",
     "static/media/review-14.jpg": "/static/media/review-14.36f5cd6c5f20e849de94.jpg",
     "static/media/review-2.jpg": "/static/media/review-2.0f426d96001b2bff06a3.jpg",
@@ -45,22 +43,16 @@
     "static/media/SFProDisplay-Bold.woff2": "/static/media/SFProDisplay-Bold.84c242fe1f30a86d5ab3.woff2",
     "static/media/SFProDisplay-Regular.woff2": "/static/media/SFProDisplay-Regular.d5ff9f6824d2c6607361.woff2",
     "static/media/logo.png": "/static/media/logo.c1ca8e9127ffd81a217a.png",
-    "static/media/techcard.png": "/static/media/techcard.dec1c32847267dd43357.png",
-    "static/media/important.png": "/static/media/important.38e6e08fa378a254e1f5.png",
-    "static/media/decor.svg": "/static/media/decor.ac6d13f1edd44bd326a87fb5dbb0132a.svg",
     "static/media/instIcon.svg": "/static/media/instIcon.3264cc8286a9914874e5.svg",
     "static/media/whatsappIcon.svg": "/static/media/whatsappIcon.62ed496218d8449ea3b2.svg",
-    "static/media/addButton.svg": "/static/media/addButton.3d264b37794309927c34.svg",
     "index.html": "/index.html",
     "static/media/menu.svg": "/static/media/menu.de02474e5da9b17666ac.svg",
-    "static/media/closeButton.svg": "/static/media/closeButton.a1157d49bea69945b401.svg",
-    "static/media/closeButton-light.svg": "/static/media/closeButton-light.dd3f6609040711e8be19.svg",
     "static/media/telegramIcon.svg": "/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
-    "main.c02afee7.css.map": "/static/css/main.c02afee7.css.map",
-    "main.35e24e5d.js.map": "/static/js/main.35e24e5d.js.map"
+    "main.fd50d7c4.css.map": "/static/css/main.fd50d7c4.css.map",
+    "main.8285a899.js.map": "/static/js/main.8285a899.js.map"
   },
   "entrypoints": [
-    "static/css/main.c02afee7.css",
-    "static/js/main.35e24e5d.js"
+    "static/css/main.fd50d7c4.css",
+    "static/js/main.8285a899.js"
   ]
 }
