@@ -1,38 +1,167 @@
 .carousel {
-  padding-top: 50px;
+  --catalog-paper: #f4f1ec;
+  --catalog-card: #fffdf9;
+  --catalog-ink: #11110f;
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  padding: 27px 0 34px;
+  box-sizing: border-box;
   overflow: hidden;
-  cursor: pointer;
-  background-color: var(--bg-color);
+  color: var(--catalog-ink);
+  background: var(--catalog-paper);
+}
+
+.carousel__header {
+  padding: 0 5% 20px;
+}
+
+.carousel__eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 16px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid rgba(17, 17, 15, .28);
+  font-family: var(--font-family);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.carousel__title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: clamp(42px, 12.5vw, 58px);
+  font-weight: 800;
+  line-height: .86;
+  letter-spacing: -.075em;
+  text-transform: uppercase;
+}
+
+.carousel__intro {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.carousel__intro p {
+  max-width: 220px;
+  margin: 0;
+  color: #65615c;
+  font-family: var(--font-family);
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.carousel__swipe-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+  font-family: var(--font-family);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.carousel__swipe-hint span {
+  font-size: 18px;
+  line-height: .8;
 }
 
 .carousel__container {
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.carousel__container::-webkit-scrollbar {
+  display: none;
 }
 
 .carousel__cards {
-  margin: 0;
-  list-style: none;
-  padding: 30px 30px 50px 30px;
-  border-top: 1px solid var(--main-color);
-  width: min-content;
-  box-sizing: border-box;
   display: flex;
   flex-wrap: nowrap;
-  gap: 20px;
+  gap: 14px;
+  width: max-content;
+  margin: 0;
+  padding: 0 5% 12px;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 .carousel__card {
-  width: 250px ;
+  flex: 0 0 min(82vw, 350px);
+  width: min(82vw, 350px);
   position: relative;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid var(--main-color);
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, .3);
   overflow: hidden;
+  border: 1px solid var(--catalog-ink);
+  border-radius: 12px;
+  background: var(--catalog-card);
+  scroll-snap-align: start;
+  cursor: pointer;
+  transition: transform .25s ease, box-shadow .25s ease;
 }
 
+.carousel__card:hover {
+  box-shadow: 5px 5px 0 rgba(17, 17, 15, .18);
+  transform: translate(-2px, -2px);
+}
+
+@media screen and (min-width: 768px) {
+  .carousel {
+    padding: 52px 0 48px;
+  }
+
+  .carousel__header {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 5% 28px;
+  }
+
+  .carousel__eyebrow {
+    margin-bottom: 22px;
+    font-size: 11px;
+  }
+
+  .carousel__title {
+    font-size: clamp(64px, 7.5vw, 92px);
+  }
+
+  .carousel__intro {
+    margin-top: 20px;
+  }
+
+  .carousel__intro p {
+    max-width: 360px;
+    font-size: 15px;
+  }
+
+  .carousel__swipe-hint {
+    font-size: 11px;
+  }
+
+  .carousel__cards {
+    gap: 18px;
+    padding: 0 max(5%, calc((100vw - 1120px) / 2)) 16px;
+  }
+
+  .carousel__card {
+    flex-basis: 320px;
+    width: 320px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__card {
+    transition: none;
+  }
+}

@@ -1,6 +1,6 @@
 .header {
   width: 90%;
-  padding-top: 20px;
+  padding-top: max(14px, env(safe-area-inset-top));
   position: absolute;
   display: flex;
   left: 5%;
@@ -10,14 +10,16 @@
 }
 
 .header__logo {
-  width: 68px;
-  height: 68px;
-  object-fit: contain;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .header__menu-button {
   position: fixed;
   right: 5%;
+  top: max(18px, env(safe-area-inset-top));
   width: 40px;
   height: 40px;
   border: 2px solid var(--bg-color);
@@ -34,4 +36,11 @@
 
 .header__menu-button:hover {
   opacity: .6;
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo {
+    width: 68px;
+    height: 68px;
+  }
 }
