@@ -1,105 +1,111 @@
 .question {
-  width: 90%;
-  padding: 10px 5%;
-  box-shadow: 2px 2px 2px 1px rgba(114, 97, 79, 0.2);
-  box-sizing: border-box;
-  border-radius: 10px;
-  border: 1px solid var(--bg-color);
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  transition: .8s ease-in-out;
+  border-bottom: 1px solid rgba(17, 17, 15, .65);
 }
 
-.question__question {
+.question__trigger {
+  display: grid;
   width: 100%;
-  margin: 0;
-  display: flex;
+  min-height: 72px;
+  grid-template-columns: 32px minmax(0, 1fr) 34px;
   align-items: center;
   gap: 10px;
+  padding: 12px 0;
+  border: 0;
+  color: #11110f;
+  background: transparent;
+  font-family: var(--font-family);
+  text-align: left;
+  cursor: pointer;
+}
+
+.question__number {
+  color: #898278;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .06em;
+}
+
+.question__label {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: .015em;
   text-transform: uppercase;
-  font-size: var(--font-size-small);
-  font-weight: 800;
-  line-height: 1.21;
-  color: var(--bg-color);
-  transition: .6s ease;
 }
 
-.question__image {
-  padding-right: 10px;
-  min-width: 24px;
-  max-width: 24px;
-  height: 24px;
-  border-right: 1px solid var(--bg-color);
-  background-size: contain;
-  background-position: left;
-  background-repeat: no-repeat;
+.question__toggle {
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #11110f;
+  border-radius: 50%;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1;
+  transition: color .2s ease, background-color .2s ease, transform .2s ease;
 }
 
-.question__image_connection {
-  background-image: url(../../images/icons/connection.png);
-}
-
-.question__image_payment {
-  background-image: url(../../images/icons/payment.png);
-}
-
-.question__image_important {
-  background-image: url(../../images/icons/important.png);
-}
-
-.question__image_techcard {
-  background-image: url(../../images/icons/techcard.png);
-}
-
-.question__icon {
-  margin: 0 0 0 auto;
-  min-width: 20px;
-  max-width: 20px;
-  height: 20px;
-  background-size: contain;
-  background-position: center;
-  background-image: url(../../images/buttons/addButton.svg);
-  background-repeat: no-repeat;
-}
-
-.question__icon:hover {
-  opacity: .6;
-}
-
-.question__icon_opened {
-  background-image: url(../../images/buttons/closeButton.svg);
+.question_opened .question__toggle {
+  color: #f4f1ec;
+  background: #11110f;
+  transform: rotate(180deg);
 }
 
 .question__answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 42px 0;
+  color: #65615c;
+  font-family: var(--font-family);
+  font-size: 13px;
+  line-height: 1.45;
   opacity: 0;
   visibility: hidden;
-  width: 100%;
-  margin: 0 auto;
-  max-height: 0;
-  display: flex;
-  box-sizing: border-box;
-  background-color: var(--bg-color-light);
-  border-top: 1px solid var(--bg-color);
-  font-size: var(--font-size-medium);
-  font-weight: 200;
-  line-height: 1.21;
-  color: var(--bg-color);
-  cursor: pointer;
-  transition: .8s ease-in-out, opacity 0.15s ease-in-out;
+  transition: max-height .35s ease, opacity .2s ease, padding .35s ease, visibility .35s ease;
+}
+
+.question__answer p {
+  margin: 0;
 }
 
 .question__answer_active {
-  margin: 10px auto 0;
-  padding: 10px 0;
+  max-height: 220px;
+  padding-bottom: 20px;
   opacity: 1;
   visibility: visible;
-  max-height: min-content;
 }
 
-@media screen and (min-width: 456px ){
-  .question {
-    width: 60%;
-    padding: 10px;
+.question__trigger:focus-visible {
+  outline: 2px solid #11110f;
+  outline-offset: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .question__trigger {
+    min-height: 82px;
+    grid-template-columns: 44px minmax(0, 1fr) 38px;
+    gap: 14px;
+  }
+
+  .question__label {
+    font-size: 17px;
+  }
+
+  .question__answer {
+    padding-left: 58px;
+    font-size: 15px;
+  }
+
+  .question__answer_active {
+    padding-bottom: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .question__toggle,
+  .question__answer {
+    transition: none;
   }
 }

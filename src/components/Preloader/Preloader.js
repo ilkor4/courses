@@ -7,8 +7,9 @@ export default function Preloader(props) {
     <div className={props.isOpen
       ? 'preloader preloader_open'
       : 'preloader'
-    }>
+    } aria-hidden={!props.isOpen}>
       <div className="preloader__logo"></div>
+      <p className='preloader__label'>Cakes by Julia</p>
     </div>
   )
 }

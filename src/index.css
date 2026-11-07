@@ -7,7 +7,8 @@ html {
 
 body {
   margin: 0;
-  background-color: #c2b3a6;
+  background-color: #F4F1EC;
+  color-scheme: light;
   --main-color: white;
   --bg-color-light: #F4F1EC;
   --bg-color: black;

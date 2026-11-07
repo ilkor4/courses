@@ -1,122 +1,187 @@
 .burger {
-  width: 100%;
-  height: 100%;
   position: fixed;
-  background-color: rgba(0, 0, 0, .75);
-  font-family: var(--font-family);
   z-index: 3;
+  inset: 0;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
+  justify-content: flex-end;
+  overflow: hidden;
+  background: rgba(17, 17, 15, .66);
+  font-family: var(--font-family);
   opacity: 0;
   visibility: hidden;
-  transition: .6s ease-in;
+  pointer-events: none;
+  transition: opacity .35s ease, visibility .35s ease;
 }
 
 .burger_opened {
   opacity: 1;
   visibility: visible;
+  pointer-events: auto;
 }
 
 .burger__container {
-  padding: 8% 5%;
-  box-sizing: border-box;
-  width: 70%;
-  height: 100%;
   display: flex;
+  width: min(88vw, 520px);
+  height: 100%;
   flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  background-color: var(--bg-color);
-  border-left: 1px solid var(--main-color);
+  box-sizing: border-box;
+  padding: max(20px, env(safe-area-inset-top)) 6% max(22px, env(safe-area-inset-bottom));
+  overflow-y: auto;
+  border-left: 1px solid rgba(244, 241, 236, .48);
+  color: #f4f1ec;
+  background: #11110f;
+  transform: translateX(24px);
+  transition: transform .4s ease;
 }
 
-.burger__content {
-  height: 100%;
+.burger_opened .burger__container {
+  transform: translateX(0);
+}
+
+.burger__topline {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(244, 241, 236, .35);
+  color: rgba(244, 241, 236, .68);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: .13em;
 }
 
 .burger__close-button {
-  align-self: flex-end;
-  min-width: 40px;
-  max-width: 40px;
+  display: inline-flex;
+  width: 40px;
   height: 40px;
-  background-size: contain;
-  background-position: center;
-  background-image: url(../../images/buttons/closeButton-light.svg);
-  background-repeat: no-repeat;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid rgba(244, 241, 236, .62);
+  border-radius: 50%;
+  color: #f4f1ec;
+  background: transparent;
+  font-family: var(--font-family);
+  font-size: 26px;
+  line-height: 1;
   cursor: pointer;
 }
 
-.burger__close-button:hover {
-  opacity: .6;
+.burger__content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 0 30px;
 }
 
 .burger__menu {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 25px;
+}
+
+.burger__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  align-self: flex-start;
+  padding: 0;
+  border: 0;
+  color: #f4f1ec;
+  background: transparent;
+  font-family: var(--font-family);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .13em;
+  cursor: pointer;
+}
+
+.burger__logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .burger__links {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(244, 241, 236, .35);
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 20px
+}
+
+.burger__links li {
+  border-bottom: 1px solid rgba(244, 241, 236, .35);
 }
 
 .burger__link {
-  color: var(--text-color);
-  font-size: var(--font-size-medium);
-  font-weight: 400;
-  line-height: 1.21;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: .7s ease;
-}
-
-.burger__link:hover {
-  opacity: .6;
-}
-
-.burger__caption {
-  max-width: 175px;
-  margin: 0;
+  display: grid;
+  width: 100%;
+  min-height: 62px;
+  grid-template-columns: 34px minmax(0, 1fr) 24px;
+  align-items: center;
+  gap: 10px;
   padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
+  border: 0;
+  color: #f4f1ec;
+  background: transparent;
+  font-family: var(--font-family);
+  text-align: left;
+  cursor: pointer;
 }
 
-.burger__text {
-  font-weight: 200;
-  color: var(--text-color);
+.burger__link-number {
+  color: #b7a991;
+  font-size: 10px;
+  letter-spacing: .05em;
 }
 
-.burger__text:nth-of-type(3) {
-  margin-top: 10px;
+.burger__link-label {
+  font-size: clamp(18px, 5vw, 23px);
+  font-weight: 700;
+  letter-spacing: -.035em;
+  text-transform: uppercase;
+}
+
+.burger__link-arrow {
+  justify-self: end;
+  font-size: 18px;
+  transition: transform .2s ease;
+}
+
+.burger__link:hover .burger__link-arrow {
+  transform: translate(2px, -2px);
 }
 
 .burger__social-icons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.burger__social-link {
   display: flex;
-  justify-content: space-between;
+  min-height: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid rgba(244, 241, 236, .35);
+  color: rgba(244, 241, 236, .8);
+  font-size: 9px;
+  text-decoration: none;
 }
 
 .burger__social-icon {
-  width: 30px;
-  height: 30px;
-  animation: scale 3s infinite linear alternate;
-  background-size: contain;
-  background-repeat: no-repeat;
+  display: block;
+  width: 20px;
+  height: 20px;
   background-position: center;
-  transition: .7s ease;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .burger__social-icon_whatsApp {
@@ -124,13 +189,42 @@
 }
 
 .burger__social-icon_inst {
-  background-image: url('../../../src/images/socialIcons/instIcon.svg');
+  background-image: url('../../images/socialIcons/instIcon.svg');
 }
 
 .burger__social-icon_telegram {
-  background-image: url('../../../src/images/socialIcons/telegramIcon.svg');
+  background-image: url('../../images/socialIcons/telegramIcon.svg');
 }
 
-.burger__social-icon:hover {
-  opacity: .7;
+.burger__caption {
+  margin: 0;
+  padding-top: 15px;
+  border-top: 1px solid rgba(244, 241, 236, .22);
+  color: rgba(244, 241, 236, .58);
+  font-size: 10px;
+  letter-spacing: .04em;
+}
+
+.burger__link:focus-visible,
+.burger__brand:focus-visible,
+.burger__close-button:focus-visible,
+.burger__social-link:focus-visible {
+  outline: 2px solid #f4f1ec;
+  outline-offset: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .burger__container {
+    width: min(520px, 44vw);
+    padding-right: 34px;
+    padding-left: 34px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .burger,
+  .burger__container,
+  .burger__link-arrow {
+    transition: none;
+  }
 }

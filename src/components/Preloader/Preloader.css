@@ -21,7 +21,7 @@
   visibility: hidden;
   width: 100%;
   height: 100%;
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-light);
   position: fixed;
   z-index: 5;
   transition: 1s ease;
@@ -34,11 +34,34 @@
 
 .preloader__logo {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  left: calc(50% - 50px);
-  top: calc(50% - 50px);
+  width: 76px;
+  height: 76px;
+  left: calc(50% - 38px);
+  top: calc(50% - 48px);
+  border-radius: 50%;
   background-size: contain;
   background-image: url(../../images/logo.png);
-  animation: preloader-scale 0.9s ease, preloader-rotate 3.1s ease-in-out .9s;
+  animation: preloader-scale 0.8s ease, preloader-rotate 2.4s ease-in-out .8s;
+}
+
+.preloader__label {
+  position: absolute;
+  top: calc(50% + 43px);
+  width: 100%;
+  margin: 0;
+  color: #11110f;
+  font-family: var(--font-family);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .13em;
+  text-align: center;
+  text-transform: uppercase;
+  animation: preloader-scale 0.8s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .preloader__logo,
+  .preloader__label {
+    animation: none;
+  }
 }
