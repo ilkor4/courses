@@ -7,13 +7,16 @@ html {
 
 body {
   margin: 0;
-  background-color: #F4F1EC;
-  color-scheme: light;
-  --main-color: white;
-  --bg-color-light: #F4F1EC;
+  background-color: #11110f;
+  background-image: radial-gradient(ellipse at 82% 8%, rgba(190, 171, 137, .1), transparent 42%), linear-gradient(138deg, #11110f 0%, #1c1a17 48%, #11110f 100%);
+  color-scheme: dark;
+  --main-color: #F4F1EC;
+  --bg-color-light: #11110f;
   --bg-color: black;
-  --text-color-dark: #77746F;
-  --text-color: white;
+  --text-color-dark: rgba(244, 241, 236, .68);
+  --text-color: #F4F1EC;
+  --gradient-ink-a: radial-gradient(ellipse at 86% 5%, rgba(190, 171, 137, .1), transparent 43%), linear-gradient(145deg, #11110f 0%, #1c1a17 52%, #11110f 100%);
+  --gradient-ink-b: radial-gradient(ellipse at 8% 95%, rgba(244, 241, 236, .065), transparent 48%), linear-gradient(155deg, #11110f 0%, #1a1916 52%, #11110f 100%);
   --font-family: 'SF Pro Display', 'Arial';
   --font-size-large: 36px;
   --font-size-medium: 18px;

@@ -19,9 +19,6 @@ export default function Questions() {
       <ul className='questions__list'>
         { questionsArray.map((question, index) => <Question question={question} index={index} key={index} />)}
       </ul>
-      <div className='decor decor_dark'>
-        <div className='decor__item decor__item_light'></div>
-      </div>
     </section>
   )
 }

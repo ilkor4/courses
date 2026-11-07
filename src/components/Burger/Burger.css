@@ -29,7 +29,7 @@
   overflow-y: auto;
   border-left: 1px solid rgba(244, 241, 236, .48);
   color: #f4f1ec;
-  background: #11110f;
+  background: var(--gradient-ink-b);
   transform: translateX(24px);
   transition: transform .4s ease;
 }

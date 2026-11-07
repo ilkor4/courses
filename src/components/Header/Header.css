@@ -22,7 +22,7 @@
   top: max(18px, env(safe-area-inset-top));
   width: 40px;
   height: 40px;
-  border: 2px solid var(--bg-color);
+  border: 1px solid rgba(244, 241, 236, .62);
   border-radius: 100%;
   padding: 0;
   margin: 0;

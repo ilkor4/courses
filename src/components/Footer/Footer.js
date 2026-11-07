@@ -11,9 +11,6 @@ export default function Footer(props) {
 
   return(
     <footer className='footer'>
-      <div className='decor'>
-        <div className='decor__item'></div>
-      </div>
       <div className='footer__content'>
         <div className='footer__brand'>
           <button className='footer__brand-button' type='button' onClick={scrollToTop} aria-label='Вернуться к началу сайта'>

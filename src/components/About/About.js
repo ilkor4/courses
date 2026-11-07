@@ -54,9 +54,6 @@ export default function About() {
           </li>
         </ul>
       </div>
-      <div className='decor decor_dark'>
-        <div className='decor__item decor__item_light'></div>
-      </div>
     </section>
   )
 }

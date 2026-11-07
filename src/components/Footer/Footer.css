@@ -2,8 +2,8 @@
   width: 100%;
   padding-bottom: 24px;
   overflow: hidden;
-  color: #11110f;
-  background: #f4f1ec;
+  color: #f4f1ec;
+  background: var(--gradient-ink-b);
   font-family: var(--font-family);
 }
 
@@ -28,7 +28,7 @@
   gap: 12px;
   padding: 0;
   border: 0;
-  color: #11110f;
+  color: #f4f1ec;
   background: transparent;
   cursor: pointer;
 }
@@ -49,7 +49,7 @@
 
 .footer__brand-note {
   margin: 0;
-  color: #65615c;
+  color: rgba(244, 241, 236, .68);
   font-size: 11px;
   line-height: 1.35;
 }
@@ -62,7 +62,7 @@
 
 .footer__label {
   margin: 0;
-  color: #898278;
+  color: #b7a991;
   font-size: 9px;
   font-weight: 600;
   letter-spacing: .12em;
@@ -80,7 +80,7 @@
 
 .footer__text {
   margin: 0;
-  color: #65615c;
+  color: rgba(244, 241, 236, .68);
   font-size: 11px;
   line-height: 1.35;
 }
@@ -91,13 +91,13 @@
   align-items: flex-start;
   gap: 12px;
   padding-top: 15px;
-  border-top: 1px solid rgba(17, 17, 15, .3);
+  border-top: 1px solid rgba(244, 241, 236, .3);
 }
 
 .footer__link {
   padding: 0;
   border: 0;
-  color: #11110f;
+  color: #f4f1ec;
   background: transparent;
   font-family: var(--font-family);
   font-size: 11px;
@@ -116,7 +116,7 @@
 
 .footer__link:focus-visible,
 .footer__brand-button:focus-visible {
-  outline: 2px solid #11110f;
+  outline: 2px solid #f4f1ec;
   outline-offset: 3px;
 }
 

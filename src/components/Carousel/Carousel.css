@@ -1,13 +1,13 @@
 .carousel {
-  --catalog-paper: #f4f1ec;
-  --catalog-card: #fffdf9;
-  --catalog-ink: #11110f;
+  --catalog-paper: #11110f;
+  --catalog-card: #f4f1ec;
+  --catalog-ink: #f4f1ec;
   width: 100%;
   padding: 27px 0 34px;
   box-sizing: border-box;
   overflow: hidden;
   color: var(--catalog-ink);
-  background: var(--catalog-paper);
+  background: var(--gradient-ink-a);
 }
 
 .carousel__header {
@@ -21,7 +21,7 @@
   gap: 12px;
   margin: 0 0 16px;
   padding-bottom: 9px;
-  border-bottom: 1px solid rgba(17, 17, 15, .28);
+  border-bottom: 1px solid rgba(244, 241, 236, .3);
   font-family: var(--font-family);
   font-size: 10px;
   font-weight: 600;
@@ -51,7 +51,7 @@
 .carousel__intro p {
   max-width: 220px;
   margin: 0;
-  color: #65615c;
+  color: rgba(244, 241, 236, .72);
   font-family: var(--font-family);
   font-size: 13px;
   line-height: 1.3;

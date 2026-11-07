@@ -35,9 +35,6 @@ export default function Portfolio() {
           })}
         </ul>
       </div>
-      <div className='decor'>
-        <div className='decor__item'></div>
-      </div>
     </section>
   )
 }

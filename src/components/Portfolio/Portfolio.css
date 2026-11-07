@@ -6,7 +6,7 @@
   box-sizing: border-box;
   overflow: hidden;
   color: var(--review-paper);
-  background: var(--review-ink);
+  background: var(--gradient-ink-a);
 }
 
 .portfolio__header {

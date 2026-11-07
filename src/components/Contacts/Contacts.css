@@ -6,7 +6,7 @@
   box-sizing: border-box;
   overflow: hidden;
   color: var(--contact-paper);
-  background: var(--contact-ink);
+  background: var(--gradient-ink-a);
   font-family: var(--font-family);
 }
 

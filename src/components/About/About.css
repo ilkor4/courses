@@ -1,11 +1,11 @@
 .about {
-  --about-paper: #f4f1ec;
-  --about-ink: #11110f;
+  --about-paper: #11110f;
+  --about-ink: #f4f1ec;
   width: 100%;
   padding-top: 34px;
   overflow: hidden;
   color: var(--about-ink);
-  background: var(--about-paper);
+  background: var(--gradient-ink-b);
   font-family: var(--font-family);
 }
 
@@ -20,7 +20,7 @@
   gap: 12px;
   margin: 0 0 17px;
   padding-bottom: 9px;
-  border-bottom: 1px solid rgba(17, 17, 15, .28);
+  border-bottom: 1px solid rgba(244, 241, 236, .3);
   font-size: 9px;
   font-weight: 600;
   line-height: 1;
@@ -40,7 +40,7 @@
 .about__intro {
   max-width: 330px;
   margin: 13px 0 0 2px;
-  color: #65615c;
+  color: rgba(244, 241, 236, .72);
   font-size: 13px;
   font-weight: 400;
   line-height: 1.4;
@@ -142,7 +142,7 @@
 }
 
 .about__image-caption span {
-  color: #77716a;
+  color: rgba(244, 241, 236, .68);
   white-space: nowrap;
 }
 
@@ -159,7 +159,7 @@
   min-height: 126px;
   padding: 14px 0 17px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(17, 17, 15, .62);
+  border-top: 1px solid rgba(244, 241, 236, .45);
 }
 
 .about__item-heading {
@@ -169,7 +169,7 @@
 }
 
 .about__number {
-  color: #8b8379;
+  color: #b7a991;
   font-size: 10px;
   font-weight: 600;
   line-height: 1;
@@ -189,7 +189,7 @@
 .about__text {
   max-width: 25ch;
   margin: 10px 0 0;
-  color: #65615c;
+  color: rgba(244, 241, 236, .72);
   font-size: 12px;
   font-weight: 400;
   line-height: 1.38;
