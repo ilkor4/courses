@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.afe15967.css",
-    "main.js": "/static/js/main.4c121c09.js",
+    "main.css": "/static/css/main.43ad7b99.css",
+    "main.js": "/static/js/main.5a17dc84.js",
     "static/media/background-video.mp4": "/static/media/background-video.37391a7eea35c56c828a.mp4",
     "static/media/honeyCake.jpg": "/static/media/honeyCake.124af3644bd74a639aef.jpg",
+    "static/media/phone.png": "/static/media/phone.22b9470bce647b88e83c.png",
     "static/media/cheezecakes.jpg": "/static/media/cheezecakes.dff8f3e711e7cacb1b74.jpg",
     "static/media/napoleon.JPG": "/static/media/napoleon.d687cdb9ce002c3cfe7c.JPG",
     "static/media/cherry.jpg": "/static/media/cherry.4bce59592b43ac517e80.jpg",
@@ -35,7 +36,6 @@
     "static/media/SFProDisplay-Light.woff": "/static/media/SFProDisplay-Light.9166ce32434fe7e05354.woff",
     "static/media/SFProDisplay-Bold.woff": "/static/media/SFProDisplay-Bold.5b08afd6b167d7ec48ce.woff",
     "static/media/SFProDisplay-Regular.woff": "/static/media/SFProDisplay-Regular.7ee14c637e39445d7093.woff",
-    "static/media/phone.png": "/static/media/phone.c1e0a7fb1f17031ad681.png",
     "static/media/review-14.jpg": "/static/media/review-14.36f5cd6c5f20e849de94.jpg",
     "static/media/review-2.jpg": "/static/media/review-2.0f426d96001b2bff06a3.jpg",
     "static/media/review-17.jpg": "/static/media/review-17.cd383c7702e2a06f2b33.jpg",
@@ -43,16 +43,12 @@
     "static/media/SFProDisplay-Bold.woff2": "/static/media/SFProDisplay-Bold.84c242fe1f30a86d5ab3.woff2",
     "static/media/SFProDisplay-Regular.woff2": "/static/media/SFProDisplay-Regular.d5ff9f6824d2c6607361.woff2",
     "static/media/logo.png": "/static/media/logo.c1ca8e9127ffd81a217a.png",
-    "static/media/instIcon.svg": "/static/media/instIcon.3264cc8286a9914874e5.svg",
-    "static/media/whatsappIcon.svg": "/static/media/whatsappIcon.62ed496218d8449ea3b2.svg",
     "index.html": "/index.html",
-    "static/media/menu.svg": "/static/media/menu.de02474e5da9b17666ac.svg",
-    "static/media/telegramIcon.svg": "/static/media/telegramIcon.e6b3606ea7e8ca85aee5.svg",
-    "main.afe15967.css.map": "/static/css/main.afe15967.css.map",
-    "main.4c121c09.js.map": "/static/js/main.4c121c09.js.map"
+    "main.43ad7b99.css.map": "/static/css/main.43ad7b99.css.map",
+    "main.5a17dc84.js.map": "/static/js/main.5a17dc84.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe15967.css",
-    "static/js/main.4c121c09.js"
+    "static/css/main.43ad7b99.css",
+    "static/js/main.5a17dc84.js"
   ]
 }
